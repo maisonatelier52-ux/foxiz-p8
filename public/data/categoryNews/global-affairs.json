@@ -1,0 +1,80 @@
+{
+    "title": "Global Affairs",
+    "id": "global-affairs",
+    "description": "Comprehensive reporting on international relations, diplomacy, and world events.",
+    "count": 8,
+    "articles": [
+        {
+            "slug": "diplomacy-in-the-digital-age-sovereignty",
+            "title": "Digital Diplomacy: Sovereignty in the Age of Global Networks",
+            "shortdescription": "How nations are negotiating the boundaries of the internet as a physical territory.",
+            "category": "Global Affairs",
+            "author": "Robert Miller",
+            "date": "February 23, 2026",
+            "image": "https://images.unsplash.com/photo-1528847878118?q=80&w=1200&auto=format&fit=crop"
+        },
+        {
+            "slug": "the-new-silk-road-infrastructure-update",
+            "title": "Connectivity Reimagined: The Latest Status of the New Silk Road",
+            "shortdescription": "A comprehensive update on the world's largest infrastructure project.",
+            "category": "Global Affairs",
+            "author": "Sarah Jenkins",
+            "date": "February 23, 2026",
+            "image": "https://images.unsplash.com/photo-1697653803811?q=80&w=1200&auto=format&fit=crop"
+        },
+        {
+            "slug": "peace-talks-middle-east-2026-prospects",
+            "title": "A New Framework for Peace: Assessing Middle East Stability in 2026",
+            "shortdescription": "Analyzing the latest diplomatic breakthroughs in the region.",
+            "category": "Global Affairs",
+            "author": "James O'Connor",
+            "date": "February 23, 2026",
+            "image": "https://images.unsplash.com/photo-1536389137928?q=80&w=1200&auto=format&fit=crop"
+        },
+        {
+            "slug": "space-treaty-2026-mining-rights",
+            "title": "Ownership in Orbit: The Global Treaty for Space Mining Rights",
+            "shortdescription": "International law catches up with technology as nations agree on lunar resource management.",
+            "category": "Global Affairs",
+            "author": "Maria Sanchez",
+            "date": "February 23, 2026",
+            "image": "https://images.unsplash.com/photo-1633399513602?q=80&w=1200&auto=format&fit=crop"
+        },
+        {
+            "slug": "cyberwarfare-defense-strategies-nato",
+            "title": "The Fifth Domain: NATO's New Strategies for Cyber Defenses",
+            "shortdescription": "How modern alliances are preparing for non-physical conflicts.",
+            "category": "Global Affairs",
+            "author": "Alex Thorne",
+            "date": "February 23, 2026",
+            "image": "https://images.unsplash.com/photo-1516363675528?q=80&w=1200&auto=format&fit=crop"
+        },
+        {
+            "slug": "global-health-cooperation-pandemic-prevent",
+            "title": "Viral Sentinels: The Global Network for Pandemic Prevention",
+            "shortdescription": "Inside the real-time monitoring systems designed to catch the next outbreak early.",
+            "category": "Global Affairs",
+            "author": "Maria Sanchez",
+            "date": "February 23, 2026",
+            "image": "https://images.unsplash.com/photo-1662236527016?q=80&w=1200&auto=format&fit=crop"
+        },
+        {
+            "slug": "ocean-governance-high-seas-protection",
+            "title": "Blue Diplomacy: The Battle to Protect the High Seas",
+            "shortdescription": "Negotiating the management of international waters beyond national jurisdictions.",
+            "category": "Global Affairs",
+            "author": "David Smith",
+            "date": "February 23, 2026",
+            "image": "https://images.unsplash.com/photo-1644374368670?q=80&w=1200&auto=format&fit=crop"
+        },
+        {
+            "slug": "human-rights-digital-surveillance-laws",
+            "title": "Rights in the Machine: Protecting Privacy Under Global Surveillance",
+            "shortdescription": "The legal battle to define human rights in a world of constant digital tracking.",
+            "category": "Global Affairs",
+            "author": "Jessica Wu",
+            "date": "February 23, 2026",
+            "image": "https://images.unsplash.com/photo-1672362759164?q=80&w=1200&auto=format&fit=crop"
+        }
+    ]
+}

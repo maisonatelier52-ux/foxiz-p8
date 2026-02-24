@@ -1,0 +1,72 @@
+{
+    "title": {
+        "red": "Wealth",
+        "rest": "INSIGHTS"
+    },
+    "articles": [
+        {
+            "id": "wth-6",
+            "author": "Michael Chen",
+            "date": "Feb 12, 2026",
+            "title": "The 'New Hubs' of Global Wealth: Digital Nomad Elite",
+            "slug": "digital-nomad-elite-wealth-hubs-2026",
+            "image": "/images/news/wealth-6.webp"
+        },
+        {
+            "id": "wth-7",
+            "author": "Michael Chen",
+            "date": "Jan 28, 2026",
+            "title": "Family Offices in 2026: Shifting to Planetary Impact",
+            "slug": "family-offices-planetary-impact-2026",
+            "image": "/images/news/wealth-7.webp"
+        },
+        {
+            "id": "wth-8",
+            "author": "Michael Chen",
+            "date": "Feb 08, 2026",
+            "title": "Luxury Real Estate 2026: 'Climate-Proof' Sanctuaries",
+            "slug": "climate-proof-luxury-real-estate-2026",
+            "image": "/images/news/wealth-8.webp"
+        },
+        {
+            "id": "nat-5",
+            "author": "Sarah Jenkins",
+            "date": "Feb 01, 2026",
+            "title": "The Secret Life of the Deep: New Species in Mariana Trench",
+            "slug": "mariana-trench-new-species-2026",
+            "image": "/images/news/nature-5.webp"
+        },
+        {
+            "id": "nat-6",
+            "author": "Sarah Jenkins",
+            "date": "Jan 20, 2026",
+            "title": "Reforestation 2.0: AI-Drones Planting 1 Billion Trees",
+            "slug": "ai-drones-reforestation-2026",
+            "image": "/images/news/nature-6.webp"
+        },
+        {
+            "id": "nat-7",
+            "author": "Sarah Jenkins",
+            "date": "Feb 10, 2026",
+            "title": "The Plastic-Eating Enzyme: Scaling Global Ocean Clean-up",
+            "slug": "plastic-eating-enzyme-ocean-clean-up-2026",
+            "image": "/images/news/nature-7.webp"
+        },
+        {
+            "id": "nat-8",
+            "author": "Sarah Jenkins",
+            "date": "Feb 12, 2026",
+            "title": "Vertical Forests: The Rise of the 'Living Skyscraper'",
+            "slug": "vertical-forests-living-skyscrapers-2026",
+            "image": "/images/news/nature-8.webp"
+        },
+        {
+            "id": "cul-6",
+            "author": "Sarah Jenkins",
+            "date": "Feb 12, 2026",
+            "title": "FIFA World Cup 2026: Global Stage for North America",
+            "slug": "fifa-world-cup-2026-preview",
+            "image": "/images/news/culture-6.webp"
+        }
+    ]
+}

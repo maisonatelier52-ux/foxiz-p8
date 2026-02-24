@@ -1,0 +1,133 @@
+'use client';
+import React from 'react';
+import Link from 'next/link';
+import {
+    Youtube,
+    Facebook,
+    Rss,
+    ChevronUp,
+    Send
+} from 'lucide-react';
+
+export default function Footer() {
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    return (
+        <footer className="bg-gradient-to-b from-[#06089bff] to-black text-white pt-10 pb-10  font-sans">
+            <div className="max-w-[1330px] mx-auto px-4 md:px-8">
+                {/* Top Row: Logo and Socials */}
+                <div className="flex flex-col md:flex-row justify-between items-center mb-4 gap-8">
+                    <Link href="/" className="flex items-center gap-1 group">
+                        <div className="flex gap-[2px] h-6 skew-x-[-15deg]">
+                            <div className="w-1.5 h-full bg-red-500"></div>
+                            <div className="w-1.5 h-full bg-yellow-400"></div>
+                            <div className="w-1.5 h-full bg-cyan-400"></div>
+                        </div>
+                        <span className="text-3xl font-black italic tracking-tighter ml-1 text-white">
+                            FOXIZ
+                        </span>
+                    </Link>
+
+                    <div className="flex items-center gap-5">
+                        <Link href="#" className="hover:opacity-80 transition-opacity">
+                            <Youtube size={18} fill="currentColor" />
+                        </Link>
+                        <Link href="#" className="hover:opacity-80 transition-opacity">
+                            <div className="w-5 h-5 bg-white rounded-sm flex items-center justify-center text-[#E12A32] font-black text-[11px]">G</div>
+                        </Link>
+                        <Link href="#" className="hover:opacity-80 transition-opacity font-serif font-black italic text-xl leading-none">
+                            M
+                        </Link>
+                        <Link href="#" className="hover:opacity-80 transition-opacity">
+                            <div className="w-5 h-5 bg-white rounded-sm flex items-center justify-center text-black font-black text-[11px]">F</div>
+                        </Link>
+                        <Link href="#" className="hover:opacity-80 transition-opacity">
+                            <Rss size={18} />
+                        </Link>
+                    </div>
+                </div>
+
+                <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-24">
+                    {/* Left Column: Brand & Subscribe */}
+                    <div className="max-w-xl">
+                        <p className="text-sm leading-relaxed mb-4 font-medium opacity-90">
+                            <span className="font-bold">Information You Can Trust:</span> Stay instantly connected with breaking stories and live updates. From politics and technology to entertainment and beyond, we provide real-time coverage you can rely on, making us your dependable source for 24/7 news.
+                        </p>
+
+                        <form className="max-w-md">
+                            <div className="relative mb-4">
+                                <input
+                                    type="email"
+                                    placeholder="Your email address"
+                                    className="w-full bg-[#001a4d] border border-white/10 px-6 py-4 rounded-xl text-sm focus:outline-none focus:border-white/30 transition-colors"
+                                />
+                            </div>
+                            <button className="bg-[#E12A32] text-white px-10 py-2 rounded-lg font-normal hover:bg-red-700 transition-colors">
+                                Subscribe
+                            </button>
+                        </form>
+                    </div>
+
+                    {/* Right Column: Links */}
+                    <div className="flex-1">
+                        {/* Quick Links */}
+                        <div className="mb-10">
+                            <span className="text-[10px] uppercase tracking-widest text-white/40 mb-4 block font-bold">
+                                *** Quick Links
+                            </span>
+                            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-bold">
+                                <Link href="/history" className="hover:text-red-500 transition-colors">Read History</Link>
+                                <span className="text-white/20 font-normal">|</span>
+                                <Link href="/category/economic" className="hover:text-red-500 transition-colors">Economy</Link>
+                                <span className="text-white/20 font-normal">|</span>
+                                <Link href="/category/travel" className="hover:text-red-500 transition-colors">Travel</Link>
+                                <span className="text-white/20 font-normal">|</span>
+                                <Link href="/category/global-affairs" className="hover:text-red-500 transition-colors">Global Security</Link>
+                                <span className="text-white/20 font-normal">|</span>
+                                <Link href="/category/global-affairs" className="hover:text-red-500 transition-colors">Global Affairs</Link>
+                                <span className="text-white/20 font-normal">|</span>
+                                <Link href="/category/world" className="hover:text-red-500 transition-colors">World</Link>
+                                <span className="text-white/20 font-normal">|</span>
+                                <Link href="/category/tech" className="hover:text-red-500 transition-colors">Technology</Link>
+                            </div>
+                        </div>
+
+                        {/* About Company */}
+                        <div>
+                            <span className="text-[10px] uppercase tracking-widest text-white/40 mb-4 block font-bold">
+                                *** About Company
+                            </span>
+                            <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-bold">
+                                <Link href="/contact" className="hover:text-red-500 transition-colors">Contact Us</Link>
+                                <span className="text-white/20 font-normal">|</span>
+                                <Link href="/advertise" className="hover:text-red-500 transition-colors">Advertise with US</Link>
+                                <span className="text-white/20 font-normal">|</span>
+                                <Link href="/privacy" className="hover:text-red-500 transition-colors">Privacy Policy</Link>
+                                <span className="text-white/20 font-normal">|</span>
+                                <Link href="/submit-tip" className="hover:text-red-500 transition-colors">Submit a Tip</Link>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Bottom Bar */}
+                <div className="pt-8 flex flex-col md:flex-row justify-center items-center relative gap-6">
+                    <p className="text-[11px] text-white/40 font-bold tracking-wider text-center">
+                        © Foxiz News Network. Ruby Design Company. All Rights Reserved.
+                    </p>
+
+                    {/* Scroll to top */}
+                    <button
+                        onClick={scrollToTop}
+                        className="md:absolute right-0 bottom-0 p-2.5 bg-[#001a4d] rounded-lg hover:bg-red-600 transition-all group shadow-xl"
+                    >
+                        <ChevronUp size={20} className="group-hover:scale-110 transition-transform" />
+                    </button>
+                </div>
+            </div>
+        </footer>
+    );
+}
+

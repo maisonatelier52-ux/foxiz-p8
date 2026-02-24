@@ -1,0 +1,36 @@
+{
+    "textNews": [
+        {
+            "id": "tech-4",
+            "categories": [
+                "Tech"
+            ],
+            "title": "Solid-State Batteries: The Holy Grail of Clean Energy",
+            "slug": "green-tech-battery-innovation-2026"
+        },
+        {
+            "id": "tech-5",
+            "categories": [
+                "Tech"
+            ],
+            "title": "Are Cities Ready for the Autonomous Vehicle Revolution?",
+            "slug": "autonomous-vehicles-city-infrastructure"
+        },
+        {
+            "id": "mkt-2",
+            "categories": [
+                "Markets"
+            ],
+            "title": "Oil Prices Plunge Amid Global Demand Fears",
+            "slug": "oil-prices-plunge-demand"
+        },
+        {
+            "id": "mkt-3",
+            "categories": [
+                "Markets"
+            ],
+            "title": "Crypto Regulation Framework Unveiled in EU",
+            "slug": "crypto-regulation-framework-eu"
+        }
+    ]
+}

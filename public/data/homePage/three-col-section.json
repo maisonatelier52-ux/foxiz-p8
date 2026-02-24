@@ -1,0 +1,155 @@
+{
+    "hero": {
+        "category": "POLITICS",
+        "title": "Diplomatic Tensions Ease After High-Level Talks",
+        "intro": "Months of escalating rhetoric appear to be cooling down following a series of high-level diplomatic meetings held in Geneva this weekend between major global powers.",
+        "author": "David Smith",
+        "role": "Diplomatic Correspondent",
+        "date": "Jan 09, 2026",
+        "contentLeft": "The focus was on long-term stability and de-escalation in key contested regions.",
+        "contentRight": "A joint statement released early Sunday morning highlighted several areas of mutual agreement.\n\nMarkets have reacted positively to the news of the breakthrough.",
+        "image": "/images/news/politics-1.webp",
+        "slug": "diplomatic-tensions-ease"
+    },
+    "sportNews": {
+        "title": {
+            "red": "Market",
+            "rest": "MOVERS & SHAKERS"
+        },
+        "articles": [
+            {
+                "category": "Markets",
+                "title": "Election Year Uncertainty Rattles Market Confidence",
+                "excerpt": "As the election year approaches, market volatility has increased as investors eye campaign promises.",
+                "slug": "election-uncertainty-markets"
+            },
+            {
+                "category": "Finance",
+                "title": "Excluding Well A Some Hummingbird Meticulous",
+                "excerpt": "Excluding well, some hummingbird meticulous in its approach to modern finance.",
+                "slug": "excluding-well-some"
+            },
+            {
+                "category": "Politics",
+                "title": "Federal Budget: Infrastructure Focus for 2026",
+                "excerpt": "The new budget proposal prioritizes green energy infrastructure and high-speed rail development.",
+                "slug": "federal-budget-infrastructure-2026"
+            },
+            {
+                "category": "Business",
+                "title": "Cross-Border Regulatory Alignment on AI",
+                "excerpt": "International regulators are moving towards a shared framework for AI ethics.",
+                "slug": "ai-regulatory-alignment-global"
+            }
+        ]
+    },
+    "coronavirus": {
+        "title": {
+            "red": "Latest",
+            "rest": "HEADLINES"
+        },
+        "description": "Stay updated with real-time alerts from our global newsroom tracking the most significant economic shifts.",
+        "timeline": [
+            {
+                "time": "Jan 18, 2026",
+                "text": "Beyond Dubai and Monaco: The New Luxury Real Estate Hubs"
+            },
+            {
+                "time": "Jan 01, 2026",
+                "text": "Collecting the Future: Digital Art and NFTs"
+            },
+            {
+                "time": "Jan 14, 2026",
+                "text": "The Rise of Private Family Offices"
+            },
+            {
+                "time": "Jan 07, 2026",
+                "text": "Superyachts and Sustainability: A Paradox?"
+            }
+        ]
+    },
+    "culture": {
+        "title": {
+            "red": "Business",
+            "rest": "INTELLIGENCE"
+        },
+        "articles": [
+            {
+                "category": "Wealth",
+                "title": "Bio-Hacking and Longevity: The Ultimate Investment",
+                "image": "/images/news/wealth-5.webp",
+                "excerpt": "Billionaires are funnelling record sums into biogerontology, hoping to turn back the clock with personalized therapies.",
+                "slug": "bio-hacking-longevity-ultimate-investment"
+            },
+            {
+                "category": "Finance",
+                "title": "Maximizing Returns in a High-Yield Environment",
+                "image": "/images/news/finance-2.webp",
+                "excerpt": "With benchmark rates sitting at decade highs, we explore the best strategies for retail investors.",
+                "slug": "personal-finance-high-yield-savings"
+            },
+            {
+                "category": "Markets",
+                "title": "Bond Yields Invert Signaling Recession Risk",
+                "image": "/images/news/markets-3.webp",
+                "excerpt": "The spread between the 2-year and 10-year Treasury yields has reached its deepest level in four decades.",
+                "slug": "bond-yields-invert-recession"
+            }
+        ]
+    },
+    "module15": {
+        "title": {
+            "red": "Wealth",
+            "rest": "MANAGEMENT"
+        },
+        "description": "Strategies for capital preservation and high-alpha returns in a volatile global economy.",
+        "articles": [
+            {
+                "slug": "family-office-trends-2026",
+                "title": "Family Office 2.0: Managing Legacy in a Turbulent Century",
+                "image": "/images/news/wealth-3.webp"
+            },
+            {
+                "slug": "luxury-yachting-sustainable-shifts",
+                "title": "The Rise of the Zero-Emission Superyacht",
+                "image": "/images/news/wealth-4.webp"
+            },
+            {
+                "slug": "longevity-science-ultimate-investment",
+                "title": "Longevity Science: The Ultimate Wealth Investment",
+                "image": "/images/news/wealth-5.webp"
+            },
+            {
+                "slug": "startup-funding-winter-thaws",
+                "title": "Is the Startup Funding Winter Finally Thawing?",
+                "image": "/images/news/business-2.webp"
+            }
+        ]
+    },
+    "hotWeek": {
+        "title": {
+            "red": "Top",
+            "rest": "STORIES"
+        },
+        "articles": [
+            {
+                "category": "Business",
+                "title": "The Great Remote Work Productivity Debate Intensifies",
+                "image": "/images/news/business-3.webp",
+                "slug": "remote-work-productivity-debate"
+            },
+            {
+                "category": "Business",
+                "title": "Retail Giants Pivot to Advanced Omnichannel Strategies",
+                "image": "/images/news/business-4.webp",
+                "slug": "retail-giants-omnichannel-strategy"
+            },
+            {
+                "category": "Culture",
+                "title": "Ancient Architecture and Its Influence on Modern Design",
+                "image": "/images/clockhead.webp",
+                "slug": "ancient-architecture-modern-design"
+            }
+        ]
+    }
+}

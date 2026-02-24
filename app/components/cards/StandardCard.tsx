@@ -1,0 +1,52 @@
+import React from 'react';
+import Link from 'next/link';
+import { Bookmark } from 'lucide-react';
+
+interface StandardCardProps {
+    slug: string;
+    image?: string;
+    category: string;
+    date: string;
+    title: string;
+    isLarge?: boolean;
+}
+
+export default function StandardCard({ slug, image, category, date, title, isLarge = false }: StandardCardProps) {
+    const fallbackImage = '/images/news/markets-1.webp';
+
+    return (
+        <div className="flex flex-col gap-3 group">
+            {/* Image */}
+            <Link href={`/news/${slug}`} className="block relative overflow-hidden rounded-xl aspect-[16/10] bg-gray-100">
+                <img
+                    src={image || fallbackImage}
+                    alt={title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+            </Link>
+
+            {/* Meta */}
+            <div className="flex items-center justify-between text-xs font-bold uppercase tracking-wider">
+                <div className="flex items-center gap-2">
+                    <Link href={`/category/${category.toLowerCase()}`} className="text-red-600 hover:underline">
+                        {category}
+                    </Link>
+                    <span className="text-gray-400 font-medium normal-case">
+                        {date}
+                    </span>
+                </div>
+                <button className="text-gray-400 hover:text-red-600 transition-colors">
+                    <Bookmark size={16} />
+                </button>
+            </div>
+
+            {/* Title */}
+            <Link href={`/news/${slug}`}>
+                <h3 className={`font-bold leading-tight text-[#09365E] group-hover:text-red-600 ${isLarge ? 'text-2xl md:text-3xl' : 'text-md'
+                    }`}>
+                    {title}
+                </h3>
+            </Link>
+        </div>
+    );
+}

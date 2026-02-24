@@ -1,0 +1,41 @@
+{
+    "items": [
+        {
+            "slug": "massive-arms-cache-arctic",
+            "image": "https://images.unsplash.com/photo-1516422291222-9921e0572d81?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Security",
+            "title": "Massive Arms Cache Found in Arctic Bunker Linked to Rogue State"
+        },
+        {
+            "slug": "drone-strike-militant-hideout",
+            "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Security",
+            "title": "Drone Strike Neutralizes Militant Hideout in the Zarnok Highlands"
+        },
+        {
+            "slug": "intelligence-leak-spy-network",
+            "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Security",
+            "title": "Intelligence Leak Exposes Spy Network Operating in Norvalen"
+        },
+        {
+            "slug": "perfect-road-trip-guide",
+            "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=1200&auto=format&fit=crop",
+            "category": "Travel",
+            "title": "How to Plan the Perfect Road Trip with the Best Routes and Travel Tips",
+            "hasVideo": true
+        },
+        {
+            "slug": "protests-erupt-kadria",
+            "image": "https://images.unsplash.com/photo-1584902824203-02fe0fbc8f1c?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Security",
+            "title": "Widespread Protests Erupt After Martial Law Declared in Kadria"
+        },
+        {
+            "slug": "bioweapon-lab-discovered",
+            "image": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Security",
+            "title": "Advanced Bioweapon Lab Discovered Beneath Ruskana Capital"
+        }
+    ]
+}

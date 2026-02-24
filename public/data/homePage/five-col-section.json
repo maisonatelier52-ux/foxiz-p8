@@ -1,0 +1,96 @@
+{
+    "sectionHeader": {
+        "title": "Technology & Innovation",
+        "subtitle": "Tracking the cutting edge of human progress."
+    },
+    "columns": [
+        {
+            "type": "image",
+            "image": "/images/news/tech-5.1.jpg"
+        },
+        {
+            "type": "articles",
+            "header": {
+                "red": "DEFI",
+                "rest": "INTEGRATION"
+            },
+            "articles": [
+                {
+                    "category": "Finance",
+                    "title": "DeFi 2.0: Institutional Integration and Security in 2026",
+                    "excerpt": "The industry has entered its '2.0' phase, defined by institutional-grade security.",
+                    "slug": "defi-20-institutional-integration-2026"
+                },
+                {
+                    "category": "Finance",
+                    "title": "Personalized Wealth Management: The AI Revolution",
+                    "excerpt": "AI agents act as lifelong personal CFOs, democratizing sophisticated financial advice.",
+                    "slug": "retirement-crisis-ai-wealth-2026"
+                }
+            ]
+        },
+        {
+            "type": "articles",
+            "header": {
+                "red": "SAFE",
+                "rest": "HAVENS"
+            },
+            "articles": [
+                {
+                    "category": "Markets",
+                    "title": "Gold Hits $3500: The Safe-Haven Rally of 2026",
+                    "excerpt": "Gold prices have surged past the $3500 per ounce milestone in early 2026.",
+                    "slug": "gold-record-high-2026-safe-haven"
+                },
+                {
+                    "category": "Markets",
+                    "title": "Copper: The New Oil of the Electrification Era",
+                    "excerpt": "Dr. Copper is now being hailed as the 'New Oil'—the lubricant for electrification.",
+                    "slug": "copper-new-oil-electrification-2026"
+                }
+            ]
+        },
+        {
+            "type": "articles",
+            "header": {
+                "red": "NATURE",
+                "rest": "FRONTIERS"
+            },
+            "articles": [
+                {
+                    "category": "Markets",
+                    "title": "Emerging Markets 2026: The Rise of the 'Digital Tiger'",
+                    "excerpt": "Nations are leveraging the 2026 AI-boom to leapfrog old economic stages.",
+                    "slug": "emerging-markets-digital-tigers-2026"
+                },
+                {
+                    "category": "Nature",
+                    "title": "Artemis II: Humanity's Return to Lunar Orbit",
+                    "excerpt": "Humans have returned to the vicinity of the Moon in over half a century.",
+                    "slug": "artemis-ii-lunar-orbit-2026"
+                }
+            ]
+        },
+        {
+            "type": "articles",
+            "header": {
+                "red": "CLIMATE",
+                "rest": "RESToration"
+            },
+            "articles": [
+                {
+                    "category": "Nature",
+                    "title": "The 2026 Climate Milestone: Global Emissions Peak",
+                    "excerpt": "Global greenhouse gas emissions have officially peaked, marking a historic turning point.",
+                    "slug": "global-emissions-peak-2026-milestone"
+                },
+                {
+                    "category": "Nature",
+                    "title": "Biodiversity Breakthrough: De-Extinction Success",
+                    "excerpt": "The successful birth of the first 'proxy' Thylacine has signaled the dawn of a new era.",
+                    "slug": "biodiversity-de-extinction-2026-success"
+                }
+            ]
+        }
+    ]
+}

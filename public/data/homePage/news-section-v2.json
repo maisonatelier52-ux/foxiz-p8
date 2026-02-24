@@ -1,0 +1,89 @@
+{
+    "sectionHeader": {
+        "title": "Finance & Economics",
+        "subtitle": "Global wealth management and monetary policy analysis."
+    },
+    "col1": {
+        "title": {
+            "red": "Finance",
+            "rest": "WATCH"
+        },
+        "articles": [
+            {
+                "category": "Culture",
+                "title": "The Metaverse Migration: Digital Festivals in 2026",
+                "excerpt": "In 2026, the line between physical and digital culture has blurred as digital festivals go mainstream.",
+                "slug": "metaverse-festivals-culture-2026"
+            },
+            {
+                "category": "Culture",
+                "title": "Restitution and Reconciliation: Global Museum Reform",
+                "excerpt": "A historic international agreement in 2026 has set the stage for massive restitution of artifacts.",
+                "slug": "global-museum-reform-restitution-2026"
+            },
+            {
+                "category": "Finance",
+                "title": "Pension Reform: Tackling the Impending Global Crisis",
+                "excerpt": "Aging populations and underfunded public pensions are forcing governments to consider radical shifts.",
+                "slug": "pension-reform-global-crisis"
+            },
+            {
+                "category": "Finance",
+                "title": "FinTech Disruption and the Survival of Traditional Banks",
+                "excerpt": "Neobanks are capturing record market share among Gen Z, forcing legacy institutions to transform.",
+                "slug": "fintech-disruption-traditional-banking"
+            },
+            {
+                "category": "Finance",
+                "title": "Real Estate Investment Strategies for the New Era",
+                "excerpt": "Residential markets are cooling while industrial and data center properties are booming in 2026.",
+                "slug": "real-estate-investment-strategies-2026"
+            }
+        ]
+    },
+    "col2": {
+        "hero": {
+            "category": "Politics",
+            "title": "Senate Passes Landmark Infrastructure Bill",
+            "intro": "In a rare display of bipartisan unity, the Senate has passed a comprehensive infrastructure bill aimed at modernizing the nation's transportation network and energy grid for the next decade.",
+            "author": "Emily Rodriguez",
+            "role": "Political Analyst",
+            "date": "Jan 03, 2026",
+            "contentLeft": "The bill includes $1.2 trillion in new spending over five years, focusing on climate resilience and broadband.",
+            "contentRight": "Analysts say this represents the most significant investment in American power since the mid-20th century.\n\nThe bill now heads to the President's desk for signing.",
+            "image": "/images/news/politics-4.webp",
+            "slug": "senate-passes-infrastructure-bill"
+        },
+        "bullets": [
+            {
+                "title": "Sustainable Supply Chains: The New Corporate Mandate",
+                "category": "Business",
+                "slug": "sustainable-supply-chain-leaders"
+            },
+            {
+                "title": "The Subtle Art of Cultural Expression in Modern Era",
+                "category": "Culture",
+                "slug": "subtle-art-cultural-expression"
+            },
+            {
+                "title": "Timmediately Quail Was Inverse Much So Remade Dimly Salmon",
+                "category": "Culture",
+                "slug": "timmediately-quail-was-inverse"
+            }
+        ]
+    },
+    "col3": {
+        "hero": {
+            "category": "CULTURE",
+            "title": "Traditional Music in the Heart of Globalized World",
+            "intro": "In an increasingly connected world, traditional music faces both challenges and opportunities.",
+            "author": "Maxin Dalton",
+            "role": "Culture Blogger",
+            "date": "Jan 14, 2026",
+            "contentLeft": "Globalization can lead to the homogenization of sound, but also provides new platforms for regional artists.",
+            "contentRight": "New digital archives are preserving ancient melodies for the 2020s generation.\n\nMusic festivals are seeing a revival of ethnic genres.",
+            "image": "/images/oldmen.webp",
+            "slug": "traditional-music-globalized-world"
+        }
+    }
+}

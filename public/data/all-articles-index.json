@@ -1,0 +1,578 @@
+[
+    {
+        "slug": "the-ethics-of-artificial-consciousness",
+        "title": "The Ethics of AI: When Does a Model Deserve Rights?",
+        "shortdescription": "As AI becomes indistinguishable from human intelligence, we must face difficult moral questions.",
+        "category": "Opinion",
+        "author": "Maria Sanchez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1636352245276?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "globalization-vs-localization-economic-debate",
+        "title": "The Case for Local: Why Resilience Might Matter More than Efficiency",
+        "shortdescription": "The pandemic-era supply chain shock has led to a major rethink of the globalized economic model.",
+        "category": "Opinion",
+        "author": "Emily Rodriguez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1667579856076?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "educational-reform-skill-based-learning",
+        "title": "Degrees or Skills? Why the Future of Education is Modular",
+        "shortdescription": "Traditional universities face disruption as employers shift focus toward verified skill badges over diplomas.",
+        "category": "Opinion",
+        "author": "Jessica Wu",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1656169235455?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-future-of-privacy-is-it-already-gone",
+        "title": "The Illusion of Privacy: Can We Ever Truly Disconnect?",
+        "shortdescription": "An exploration of the social and psychological impact of living in a state of constant digital surveillance.",
+        "category": "Opinion",
+        "author": "Emily Rodriguez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1665585921191?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "space-exploration-priority-vs-earth-issues",
+        "title": "The Mars Dilemma: Why Exploration Inspires Solutions for Earth",
+        "shortdescription": "Defending the multi-planetary dream as a driver for sustainable technology here at home.",
+        "category": "Opinion",
+        "author": "Robert Miller",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1602911369016?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "universal-basic-income-the-looming-necessity",
+        "title": "The AI Safety Net: Why UBI is No Longer an Option, but a Necessity",
+        "shortdescription": "Preparing for a world where automation significantly reduces the total number of human-held jobs.",
+        "category": "Opinion",
+        "author": "Maria Sanchez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1627709548803?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "mental-health-infrastructure-social-priority",
+        "title": "The Silent Crisis: Why Mental Health must be the Priority of 2026",
+        "shortdescription": "Investing in psychological infrastructure is as critical as building roads and bridges.",
+        "category": "Opinion",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1506054012611?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "journalism-and-truth-in-the-post-deep-fake-era",
+        "title": "Guardians of Fact: The Critical Role of Journalism in an AI-Driven World",
+        "shortdescription": "Why authentic, human-verified reporting is the only defense against a flood of synthetic misinformation.",
+        "category": "Opinion",
+        "author": "David Smith",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1642077388032?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "inflation-management-strategies-2026",
+        "title": "Managing Inflation: Strategies for a Polarized Global Economy",
+        "shortdescription": "How central banks are navigating the thin line between growth and stability in 2026.",
+        "category": "Economic",
+        "author": "David Smith",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1518507659632?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-rise-of-digital-sovereign-currencies",
+        "title": "Digital Gold: The Rise of Sovereign Cryptocurrencies",
+        "shortdescription": "National governments begin adopting digital formats for their currencies in earnest.",
+        "category": "Economic",
+        "author": "Michael Chen",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1576071159037?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "labor-market-shifts-automation-impact",
+        "title": "Automation and the Labor Market: A 2026 Status Report",
+        "shortdescription": "The evolving relationship between human workers and autonomous systems in heavy industry.",
+        "category": "Economic",
+        "author": "James O'Connor",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1672157488090?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "global-supply-chain-rebalancing-act",
+        "title": "Resilience Over Speed: The New Global Supply Chain Standard",
+        "shortdescription": "Companies prioritize safety stocks and local sourcing in a volatile trade environment.",
+        "category": "Economic",
+        "author": "Michael Chen",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1646210959344?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-future-of-commercial-real-estate",
+        "title": "Repurposing the City: The Future of Commercial Real Estate",
+        "shortdescription": "How vacant office spaces are being transformed into residential and communal hubs.",
+        "category": "Economic",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1606148666507?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "fdi-trends-emerging-tech-hubs-asia",
+        "title": "Asia's New Tech Corridors: Where FDI is Flowing in 2026",
+        "shortdescription": "Vietnam and Indonesia emerge as the primary beneficiaries of the latest manufacturing shift.",
+        "category": "Economic",
+        "author": "Jessica Wu",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1675726063866?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "consumer-spending-patterns-post-recession",
+        "title": "The New Consumer: Spending Patterns in a High-Efficiency Era",
+        "shortdescription": "Analyzing how households are prioritizing services over goods in the mid-2020s.",
+        "category": "Economic",
+        "author": "Alex Thorne",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1500732165826?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "tax-policy-inequality-global-prospects",
+        "title": "Addressing the Gap: Global Tax Policies for a New Decade",
+        "shortdescription": "A review of the latest international efforts to modernize wealth and corporate taxation.",
+        "category": "Economic",
+        "author": "Alex Thorne",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1590784800470?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "inside-the-deep-sea-mining-race",
+        "title": "The Deep Blue Gold Rush: Inside the Race for Seabed Minerals",
+        "shortdescription": "A investigative look at the companies and nations battling for control of the ocean floor.",
+        "category": "Featured",
+        "author": "Michael Chen",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1524947989276?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-lost-cities-of-the-amazon-discovered",
+        "title": "History Reclaimed: LIDAR Uncovers Lost Civilizations in the Amazon",
+        "shortdescription": "How laser technology is rewriting the history of human settlement in South America.",
+        "category": "Featured",
+        "author": "Emily Rodriguez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1505274987437?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "artificial-organs-longevity-breakthrough",
+        "title": "The Bionic Heart: How 3D-Bioprinting is Solving the Organ Crisis",
+        "shortdescription": "A feature story on the first successful long-term transplants of fully synthetic organs.",
+        "category": "Featured",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1516509693565?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-silicon-desert-arizona-semiconductors",
+        "title": "The Silicon Desert: Arizona's Transformation into a Chip Giant",
+        "shortdescription": "Inside the massive semiconductor fabs reshaping the American Southwest.",
+        "category": "Featured",
+        "author": "Michael Chen",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1537452035547?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "arctic-exploration-new-frontier-2026",
+        "title": "The Melting Frontier: A Journey Through the New Arctic Passages",
+        "shortdescription": "Following the explorers and scientists documenting the transformation of the North Pole.",
+        "category": "Featured",
+        "author": "Alex Thorne",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1550153160341?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "quantum-supremacy-real-world-applications",
+        "title": "Beyond Theory: First Practical Uses of Quantum Computers in Drug Discovery",
+        "shortdescription": "How specialized quantum processors are cutting years off medical research timelines.",
+        "category": "Featured",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1633027844202?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "space-archaeology-orbital-perspectives",
+        "title": "Eyes in the Sky: Space Archaeology and the Discovery of Ancient Roads",
+        "shortdescription": "Using high-resolution satellite imagery to uncover forgotten terrestrial networks.",
+        "category": "Featured",
+        "author": "Emily Rodriguez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1519881619082?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-great-rewilding-europe-success-stories",
+        "title": "Nature Bounces Back: The Success of Europe's Master Rewilding Plan",
+        "shortdescription": "Documenting the return of keystone species to the European wilderness after a century of absence.",
+        "category": "Featured",
+        "author": "David Smith",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1569939629376?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "diplomacy-in-the-digital-age-sovereignty",
+        "title": "Digital Diplomacy: Sovereignty in the Age of Global Networks",
+        "shortdescription": "How nations are negotiating the boundaries of the internet as a physical territory.",
+        "category": "Global Affairs",
+        "author": "Robert Miller",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1528847878118?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-new-silk-road-infrastructure-update",
+        "title": "Connectivity Reimagined: The Latest Status of the New Silk Road",
+        "shortdescription": "A comprehensive update on the world's largest infrastructure project.",
+        "category": "Global Affairs",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1697653803811?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "peace-talks-middle-east-2026-prospects",
+        "title": "A New Framework for Peace: Assessing Middle East Stability in 2026",
+        "shortdescription": "Analyzing the latest diplomatic breakthroughs in the region.",
+        "category": "Global Affairs",
+        "author": "James O'Connor",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1536389137928?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "space-treaty-2026-mining-rights",
+        "title": "Ownership in Orbit: The Global Treaty for Space Mining Rights",
+        "shortdescription": "International law catches up with technology as nations agree on lunar resource management.",
+        "category": "Global Affairs",
+        "author": "Maria Sanchez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1633399513602?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "cyberwarfare-defense-strategies-nato",
+        "title": "The Fifth Domain: NATO's New Strategies for Cyber Defenses",
+        "shortdescription": "How modern alliances are preparing for non-physical conflicts.",
+        "category": "Global Affairs",
+        "author": "Alex Thorne",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1516363675528?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "global-health-cooperation-pandemic-prevent",
+        "title": "Viral Sentinels: The Global Network for Pandemic Prevention",
+        "shortdescription": "Inside the real-time monitoring systems designed to catch the next outbreak early.",
+        "category": "Global Affairs",
+        "author": "Maria Sanchez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1662236527016?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "ocean-governance-high-seas-protection",
+        "title": "Blue Diplomacy: The Battle to Protect the High Seas",
+        "shortdescription": "Negotiating the management of international waters beyond national jurisdictions.",
+        "category": "Global Affairs",
+        "author": "David Smith",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1644374368670?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "human-rights-digital-surveillance-laws",
+        "title": "Rights in the Machine: Protecting Privacy Under Global Surveillance",
+        "shortdescription": "The legal battle to define human rights in a world of constant digital tracking.",
+        "category": "Global Affairs",
+        "author": "Jessica Wu",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1672362759164?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "carbon-capture-scaling-2026-milestone",
+        "title": "Scaling the Sky: Carbon Capture Hits Megaton Milestones in 2026",
+        "shortdescription": "A look at the technology finally making a dent in atmospheric CO2 levels.",
+        "category": "Climate Change",
+        "author": "James O'Connor",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1680363961074?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "ocean-acidification-mitigation-coral-reef",
+        "title": "Saving the Reefs: New Strategies for Ocean Acidification Mitigation",
+        "shortdescription": "How scientists are using chemistry and biology to protect vulnerable marine ecosystems.",
+        "category": "Climate Change",
+        "author": "Alex Thorne",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1564742044216?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "glacier-retreat-water-security-impact",
+        "title": "The Thirst of Nations: Glacier Retreat and Global Water Security",
+        "shortdescription": "Modeling the long-term impact of losing the world's mountain water towers.",
+        "category": "Climate Change",
+        "author": "Emily Rodriguez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1539349762739?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "climate-migration-urban-planning-adapts",
+        "title": "The Resilient City: How Urban Planning is Adapting to Climate Migration",
+        "shortdescription": "Managing the influx of populations as environmental conditions shift globally.",
+        "category": "Climate Change",
+        "author": "James O'Connor",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1510434376341?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "methane-emissions-tracking-satellite-data",
+        "title": "Methane Hunters: Using Satellites to Trace Invisible Emissions",
+        "shortdescription": "How precise orbital data is forcing industrial emitters to clean up their act.",
+        "category": "Climate Change",
+        "author": "Michael Chen",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1622130371145?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "reforestation-biodiversity-soil-carbon-sink",
+        "title": "More Than Just Trees: Restoring Soil as the Ultimate Carbon Sink",
+        "shortdescription": "Integrating regenerative agriculture into global reforestation efforts.",
+        "category": "Climate Change",
+        "author": "James O'Connor",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1629908205527?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "extreme-weather-predictive-ai-models",
+        "title": "Knowing the Storm: How AI is Revolutionizing Extreme Weather Prediction",
+        "shortdescription": "Using machine learning to provide weeks of warning for cyclones and heatwaves.",
+        "category": "Climate Change",
+        "author": "Jessica Wu",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1665404344273?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-green-transition-economic-winners",
+        "title": "The New Green Titans: Which Economies are Winning the Transition?",
+        "shortdescription": "Analyzing the shift in global power as the fossil fuel era begins to sunset.",
+        "category": "Climate Change",
+        "author": "Emily Rodriguez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1561548718070?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "perovskite-solar-cells-efficiency-record",
+        "title": "The Solar Breakthrough: Perovskite Cells Hit 35% Efficiency",
+        "shortdescription": "Next-generation solar tech prepares for mass market deployment.",
+        "category": "Renewable Energy",
+        "author": "Robert Miller",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1505359368653?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "offshore-wind-expansion-floating-turbines",
+        "title": "Wind at Sea: The Rise of Floating Deep-Water Wind Farms",
+        "shortdescription": "Unlocking the massive wind potential of the deep oceans with new platform tech.",
+        "category": "Renewable Energy",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1513169789918?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "hydrogen-economy-industrial-decarbonize",
+        "title": "Green Hydrogen: The Key to Decarbonizing Heavy Industry",
+        "shortdescription": "How hydrogen is replacing coal and gas in steel and cement production.",
+        "category": "Renewable Energy",
+        "author": "Maria Sanchez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1547701386198?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "solid-state-grid-batteries-stability",
+        "title": "Stabilizing the Grid: Solid-State Batteries for Mega-Scale Storage",
+        "shortdescription": "The infrastructure allowing 100% renewable grids to function 24/7.",
+        "category": "Renewable Energy",
+        "author": "Emily Rodriguez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1561029013960?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "geothermal-innovations-deep-borehole-heat",
+        "title": "Tapping the Core: Revolutionary Deep Borehole Geothermal Energy",
+        "shortdescription": "Accessing constant, clean energy anywhere on Earth by drilling deeper than ever.",
+        "category": "Renewable Energy",
+        "author": "Maria Sanchez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1589855023949?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "fusion-energy-pilot-plants-2030-goals",
+        "title": "Ignition Achieved: First Commercial Fusion Pilot Plants Break Ground",
+        "shortdescription": "The dream of limitless clean energy takes a major step toward reality.",
+        "category": "Renewable Energy",
+        "author": "Maria Sanchez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1672899083946?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "tidal-power-predictable-ocean-turbines",
+        "title": "Lunar Power: Tapping the Reliable Energy of the Tides",
+        "shortdescription": "New turbine designs prove that the ocean's rhythm is a viable baseload power source.",
+        "category": "Renewable Energy",
+        "author": "James O'Connor",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1545967207820?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "smart-grids-ai-optimization-energy-flow",
+        "title": "Thinking Power: How AI is Optimizing National Energy Grids",
+        "shortdescription": "Reducing waste and improving efficiency through real-time, intelligent distribution.",
+        "category": "Renewable Energy",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1572738125418?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "midterm-shift-2026-analysis",
+        "title": "The 2026 Midterm Shift: A Deep Dive into the Battle for the House",
+        "shortdescription": "As the 2026 midterm elections approach, political analysts are witnessing a seismic shift.",
+        "category": "Politics",
+        "author": "Robert Miller",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1587654754713?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-future-of-global-diplomacy-2026",
+        "title": "The Future of Global Diplomacy: Beyond Traditional Borders",
+        "shortdescription": "A look at how digital sovereignty is reshaping international relations.",
+        "category": "Politics",
+        "author": "Emily Rodriguez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1525949901654?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "electoral-reforms-digital-voting-security",
+        "title": "Electoral Reforms: Can Digital Voting Ever Be Truly Secure?",
+        "shortdescription": "Checking the progress of blockchain-based voting trials.",
+        "category": "Politics",
+        "author": "David Smith",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1510766801085?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "climate-policy-shift-in-major-economies",
+        "title": "Climate Policy Shift: Economic Giants Align on Carbon Taxes",
+        "shortdescription": "A major breakthrough in international climate cooperation.",
+        "category": "Politics",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1573143733357?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-rise-of-decentralized-governance",
+        "title": "The Rise of DAOs: Could Decentralized Governance Replace City Councils?",
+        "shortdescription": "Exploring community-led smart contract governance.",
+        "category": "Politics",
+        "author": "David Smith",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1620361923136?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "global-tax-alignment-for-multi-nationals",
+        "title": "Taxing the Giants: Global Minimum Tax Reaches 20%",
+        "shortdescription": "The latest on international tax reform.",
+        "category": "Politics",
+        "author": "Robert Miller",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1584371477293?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-impact-of-midterm-elections-on-policy",
+        "title": "Midterm Impact: The Legislative Gridlock or a Path to Progress?",
+        "shortdescription": "Analyzing the post-election landscape.",
+        "category": "Politics",
+        "author": "David Smith",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1528847283623?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "ocean-territory-disputes-new-treaties",
+        "title": "The High Seas Treaty: Resolving Arctic Territory Disputes",
+        "shortdescription": "New laws for the changing north.",
+        "category": "Politics",
+        "author": "Emily Rodriguez",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1682486659821?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "genomic-editing-precision-medicine-2026",
+        "title": "CRISPR 2.0: The Era of Error-Free Genomic Editing Begins",
+        "shortdescription": "New research shows how to fix genetic disorders with 100% precision.",
+        "category": "Research",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1688884193360?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "the-neural-interface-breakthrough",
+        "title": "Mind to Machine: The Latest Breakthroughs in Neural Interfaces",
+        "shortdescription": "Recovering mobility and communication for paralyzed patients through direct brain links.",
+        "category": "Research",
+        "author": "Robert Miller",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1619957468744?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "dark-matter-detection-milestone-results",
+        "title": "Hunting the Invisible: New Results from the Most Sensitive Dark Matter Detector",
+        "shortdescription": "Physics enters a new era as we get closer to understanding the universe's missing mass.",
+        "category": "Research",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1570529739350?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "materials-science-room-temp-superconduct",
+        "title": "The Holy Grail: Room-Temperature Superconductors and Their Impact",
+        "shortdescription": "Material scientists announce a stable, practical superconductor for electrical lines.",
+        "category": "Research",
+        "author": "James O'Connor",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1571798880843?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "cognitive-science-memory-enhancement-study",
+        "title": "Enhancing Memory: A Landmark Study on Targeted Neural Stimulation",
+        "shortdescription": "How specific frequencies can help recover lost memories in Alzheimer's patients.",
+        "category": "Research",
+        "author": "James O'Connor",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1645350930176?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "paleontology-dna-extraction-extinct-mammals",
+        "title": "Resurrecting the Past: DNA Extraction from 2-Million-Year-Old Permafrost",
+        "shortdescription": "A breakthrough in paleogenetics reveals the ecosystem of the ancient north.",
+        "category": "Research",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1667202441076?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "sociology-of-the-metaverse-interaction",
+        "title": "Social 3.0: A Longitudinal Study of Human Interaction in Virtual Space",
+        "shortdescription": "How digital living is reshaping our fundamental social structures.",
+        "category": "Research",
+        "author": "Alex Thorne",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1612325633104?q=80&w=1200&auto=format&fit=crop"
+    },
+    {
+        "slug": "deep-space-telescope-exoplanet-biomarkers",
+        "title": "Signs of Life? Deep-Space Telescope Identifies Oxygen on a Nearby Exoplanet",
+        "shortdescription": "The search for extraterrestrial life hits a significant milestone.",
+        "category": "Research",
+        "author": "Sarah Jenkins",
+        "date": "February 23, 2026",
+        "image": "https://images.unsplash.com/photo-1521172730139?q=80&w=1200&auto=format&fit=crop"
+    }
+]
