@@ -26,11 +26,11 @@ export default function Home() {
       <Header />
 
       <div className="flex-grow">
-        <QuickLinks />
         {/* New 3-Column Hero Section */}
         <HomeHero />
         <FeaturedStories />
         <NewsStrip />
+        <QuickLinks />
       </div>
 
       <Footer />
