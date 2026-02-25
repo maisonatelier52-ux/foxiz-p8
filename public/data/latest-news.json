@@ -1,34 +1,74 @@
 {
     "articles": [
         {
-            "slug": "cryptocurrency-vs-traditional-banking",
-            "image": "https://images.unsplash.com/photo-1518186239124-343588f98fac?q=80&w=800&auto=format&fit=crop",
-            "category": "Economy",
-            "title": "Cryptocurrency vs Traditional Banking: Who Wins in the Long Run?"
+            "slug": "quantum-supremacy-real-world-applications",
+            "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=1200&auto=format&fit=crop",
+            "category": "Featured",
+            "title": "Beyond Theory: First Practical Uses of Quantum Computers in Drug Discovery",
+            "date": "Feb 24, 2026"
         },
         {
-            "slug": "universal-basic-income-bold-idea",
-            "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
-            "category": "Economy",
-            "title": "Universal Basic Income: Bold Idea or Economic Risk?"
+            "slug": "space-archaeology-orbital-perspectives",
+            "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?q=80&w=1200&auto=format&fit=crop",
+            "category": "Featured",
+            "title": "Eyes in the Sky: Space Archaeology and the Discovery of Ancient Roads",
+            "date": "Feb 24, 2026"
         },
         {
-            "slug": "youth-unemployment-silent-crisis",
-            "image": "https://images.unsplash.com/photo-1521791136364-798a7bc0d262?q=80&w=800&auto=format&fit=crop",
-            "category": "Economy",
-            "title": "Youth Unemployment: A Silent Crisis in the Global Economy"
+            "slug": "diplomacy-in-the-digital-age-sovereignty",
+            "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Affairs",
+            "title": "Digital Diplomacy: Sovereignty in the Age of Global Networks",
+            "date": "Feb 23, 2026"
         },
         {
-            "slug": "economics-of-climate-change",
-            "image": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?q=80&w=800&auto=format&fit=crop",
-            "category": "Economy",
-            "title": "The Economics of Climate Change: Can We Afford Not to Act?"
+            "slug": "the-new-silk-road-infrastructure-update",
+            "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Affairs",
+            "title": "Connectivity Reimagined: The Latest Status of the New Silk Road",
+            "date": "Feb 23, 2026"
         },
         {
-            "slug": "global-supply-chain-disruptions",
-            "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop",
-            "category": "Economy",
-            "title": "Global Supply Chain Disruptions: Why Your Groceries Cost More Now"
+            "slug": "global-democracy-index-2026-results",
+            "image": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1200&auto=format&fit=crop",
+            "category": "Politics",
+            "title": "Democracy Index 2026: Nordic Nations Lead as Global Stability Falters",
+            "date": "Feb 23, 2026"
+        },
+        {
+            "slug": "peace-talks-middle-east-2026-prospects",
+            "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Affairs",
+            "title": "A New Framework for Peace: Assessing Middle East Stability in 2026",
+            "date": "Feb 22, 2026"
+        },
+        {
+            "slug": "global-health-cooperation-pandemic-prevent",
+            "image": "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Affairs",
+            "title": "Viral Sentinels: The Global Network for Pandemic Prevention",
+            "date": "Feb 21, 2026"
+        },
+        {
+            "slug": "ocean-governance-high-seas-protection",
+            "image": "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Affairs",
+            "title": "Blue Diplomacy: The Battle to Protect the High Seas",
+            "date": "Feb 21, 2026"
+        },
+        {
+            "slug": "human-rights-digital-surveillance-laws",
+            "image": "https://images.unsplash.com/photo-1545987796-200677ee1011?q=80&w=1200&auto=format&fit=crop",
+            "category": "Global Affairs",
+            "title": "Rights in the Machine: Protecting Privacy Under Global Surveillance",
+            "date": "Feb 20, 2026"
+        },
+        {
+            "slug": "ocean-acidification-mitigation-coral-reef",
+            "image": "https://images.unsplash.com/photo-1582967788606-a171c1080cb0?q=80&w=1200&auto=format&fit=crop",
+            "category": "Climate Change",
+            "title": "Saving the Reefs: New Strategies for Ocean Acidification Mitigation",
+            "date": "Feb 20, 2026"
         }
     ]
 }

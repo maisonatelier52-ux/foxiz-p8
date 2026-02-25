@@ -1,32 +1,32 @@
 {
     "stories": [
         {
-            "slug": "budget-backpacking-europe",
-            "image": "https://images.unsplash.com/photo-1530789252389-121cd43873e1?q=80&w=2070&auto=format&fit=crop",
-            "category": "Travel",
-            "date": "May 13, 2025",
-            "title": "A Budget Backpacking Guide Through Europe for Every Traveler"
+            "slug": "inside-the-deep-sea-mining-race",
+            "image": "https://images.unsplash.com/photo-1628349932168-0b5e3fac0428?q=80&w=1200&auto=format&fit=crop",
+            "category": "Featured",
+            "date": "Feb 23, 2026",
+            "title": "Deep Blue Gold: The Race for the Most Valuable Rocks on Earth"
         },
         {
-            "slug": "best-hiking-trails-nature",
-            "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=2070&auto=format&fit=crop",
-            "category": "Travel",
-            "date": "May 13, 2025",
-            "title": "Best Hiking Trails for Nature Lovers and Where to Find Them"
+            "slug": "the-lost-cities-of-the-amazon-discovered",
+            "image": "https://images.unsplash.com/photo-1518623489648-a173ef7824f3?q=80&w=1200&auto=format&fit=crop",
+            "category": "Featured",
+            "date": "Feb 23, 2026",
+            "title": "LIDAR Revolution: Mapping the Pre-Columbian Urban Grid of the Amazon"
         },
         {
-            "slug": "instagrammable-spots-globe",
-            "image": "https://images.unsplash.com/photo-1527631746610-bca00a040d60?q=80&w=1974&auto=format&fit=crop",
-            "category": "Travel",
-            "date": "May 13, 2025",
-            "title": "Most Instagrammable Spots Around the Globe for Your Travel Photos"
+            "slug": "artificial-organs-longevity-breakthrough",
+            "image": "https://images.unsplash.com/photo-1530026405186-ed1f139313f8?q=80&w=1200&auto=format&fit=crop",
+            "category": "Medical Research",
+            "date": "Feb 23, 2026",
+            "title": "Bionic Future: The Success of Self-Compatible 3D-Bioprinted Organs"
         },
         {
-            "slug": "best-cities-nightlife",
-            "image": "https://images.unsplash.com/photo-1514525253344-773739e94640?q=80&w=2067&auto=format&fit=crop",
-            "category": "Travel",
-            "date": "May 13, 2025",
-            "title": "Best Cities with the Best Nightlife for Party Seekers"
+            "slug": "the-great-rewilding-europe-success-stories",
+            "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5?q=80&w=1200&auto=format&fit=crop",
+            "category": "Nature",
+            "date": "Feb 23, 2026",
+            "title": "Rewilding Europe: The Return of the Lynx and the Bison"
         }
     ]
 }

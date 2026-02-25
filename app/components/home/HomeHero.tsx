@@ -6,7 +6,7 @@ import MostReadWidget from '../sidebar/MostReadWidget';
 import heroData from '@/public/data/home-hero.json';
 
 export default function HomeHero() {
-    const { featuredArticle, sideArticles, bottomArticles, mostRead } = heroData;
+    const { featured: featuredArticle, sideArticles, bottomArticles, mostRead } = heroData;
 
     return (
         <section className="w-full bg-white py-8">

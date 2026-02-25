@@ -1,29 +1,29 @@
 {
     "mainArticle": {
-        "slug": "skirmishes-break-out-border",
-        "image": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?q=80&w=1200&auto=format&fit=crop",
-        "category": "Global Security",
-        "date": "August 30, 2021",
-        "title": "Skirmishes Break Out on the Border Between Dravena and Kylor"
+        "slug": "journalism-and-truth-in-the-post-deep-fake-era",
+        "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1200&auto=format&fit=crop",
+        "category": "Opinion",
+        "date": "Feb 25, 2026",
+        "title": "Guardians of Fact: The Critical Role of Journalism in an AI-Driven World"
     },
     "bottomArticles": [
         {
-            "slug": "exploring-blockchain-technology",
-            "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=1200&auto=format&fit=crop",
-            "category": "Technology",
-            "title": "Exploring Blockchain Technology Beyond Cryptocurrency"
+            "slug": "inflation-management-strategies-2026",
+            "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1200&auto=format&fit=crop",
+            "category": "Economic",
+            "title": "Managing Inflation: Strategies for a Polarized Global Economy"
         },
         {
-            "slug": "how-5g-will-transform-connectivity",
-            "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop",
-            "category": "Technology",
-            "title": "How 5G Will Transform Communication and Connectivity"
+            "slug": "carbon-capture-scaling-2026-milestone",
+            "image": "https://images.unsplash.com/photo-1532408840957-031d8034aeef?q=80&w=1200&auto=format&fit=crop",
+            "category": "Climate Change",
+            "title": "Milestone: Iceland DAC Plant Sequesters its One-Millionth Ton of CO2"
         },
         {
-            "slug": "rise-of-augmented-reality",
-            "image": "https://images.unsplash.com/photo-1626379953822-baec19c3bbcd?q=80&w=1200&auto=format&fit=crop",
-            "category": "Technology",
-            "title": "The Rise of Augmented Reality in Everyday Life"
+            "slug": "the-rise-of-digital-sovereign-currencies",
+            "image": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?q=80&w=1200&auto=format&fit=crop",
+            "category": "Economic",
+            "title": "Digital Gold: The Rise of Sovereign Cryptocurrencies"
         }
     ]
 }

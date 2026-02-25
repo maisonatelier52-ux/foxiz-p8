@@ -5,12 +5,22 @@ import Link from 'next/link';
 import { Bookmark, Play } from 'lucide-react';
 import moreNewsData from '@/public/data/more-news.json';
 
+interface NewsArticle {
+    slug: string;
+    image: string;
+    category: string;
+    date: string;
+    title: string;
+    hasVideo?: boolean;
+}
+
 export default function MoreNews() {
     const [showAll, setShowAll] = useState(false);
 
     // Each row has 2 articles. Initial: 3 rows (6 articles). Total: 6 rows (12 articles).
     const initialArticlesCount = 6;
-    const displayedArticles = showAll ? moreNewsData.articles : moreNewsData.articles.slice(0, initialArticlesCount);
+    const articles = (moreNewsData as NewsArticle[]);
+    const displayedArticles = showAll ? articles : articles.slice(0, initialArticlesCount);
 
     return (
         <section className="w-full bg-white py-12">

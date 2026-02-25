@@ -1,39 +1,39 @@
 {
     "mainArticle": {
-        "slug": "peace-talks-fail-tensions-escalate",
-        "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=1200&auto=format&fit=crop",
-        "category": "World",
-        "date": "May 13, 2025",
-        "title": "Peace Talks Fail as Tensions Escalate Between Rival Nations"
+        "slug": "ai-governance-summit-geneva",
+        "category": "Politics",
+        "title": "The Geneva Accord: 142 Nations Ban Autonomous Weapons in Landmark Treaty",
+        "date": "Feb 24, 2026",
+        "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1200&auto=format&fit=crop"
     },
     "gridArticles": [
         {
-            "slug": "paramilitary-group-claims-control",
-            "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=600&auto=format&fit=crop",
-            "category": "Global Security",
-            "date": "May 13, 2025",
-            "title": "Paramilitary Group Claims Control Over Eastern Varnok"
+            "slug": "tax-policy-inequality-global-prospects",
+            "category": "Economic",
+            "title": "Addressing the Gap: Global Tax Policies for a New Decade",
+            "date": "Feb 23, 2026",
+            "image": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?q=80&w=1200&auto=format&fit=crop"
         },
         {
-            "slug": "gryndor-intelligence-agency-launches-hunt",
-            "image": "https://images.unsplash.com/photo-1579913741637-8858ce1c9e43?q=80&w=600&auto=format&fit=crop",
-            "category": "Global Security",
-            "date": "May 13, 2025",
-            "title": "Gryndor Intelligence Agency Launches Hunt for Escaped War Criminal"
+            "slug": "the-silicon-desert-arizona-semiconductors",
+            "category": "Featured",
+            "title": "The Silicon Desert: Arizona's Transformation into a Chip Giant",
+            "date": "Feb 23, 2026",
+            "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop"
         },
         {
-            "slug": "5-ways-small-businesses-can-thrive",
-            "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=600&auto=format&fit=crop",
-            "category": "Economy",
-            "date": "May 13, 2025",
-            "title": "5 Ways Small Businesses Can Thrive in a Challenging Economy"
+            "slug": "arctic-exploration-new-frontier-2026",
+            "category": "Featured",
+            "title": "The Melting Frontier: A Journey Through the New Arctic Passages",
+            "date": "Feb 22, 2026",
+            "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1200&auto=format&fit=crop"
         },
         {
-            "slug": "what-is-a-recession-really",
-            "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=600&auto=format&fit=crop",
-            "category": "Economy",
-            "date": "May 13, 2025",
-            "title": "What Is a Recession, Really? And Should You Be Worried?"
+            "slug": "space-treaty-2026-mining-rights",
+            "category": "Global Affairs",
+            "title": "Ownership in Orbit: The New Global Treaty for Space Mining Rights",
+            "date": "Feb 22, 2026",
+            "image": "https://images.unsplash.com/photo-1457364887197-9150188c107b?q=80&w=1200&auto=format&fit=crop"
         }
     ]
 }

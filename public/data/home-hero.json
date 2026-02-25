@@ -1,88 +1,90 @@
 {
-    "featuredArticle": {
-        "slug": "inside-the-deep-sea-mining-race",
-        "image": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?q=80&w=1200&auto=format&fit=crop",
-        "category": "Featured",
-        "subcategory": "Economic",
-        "date": "February 23, 2026",
-        "title": "The Deep Blue Gold Rush: Inside the Race for Seabed Minerals",
-        "description": "A investigative look at the companies and nations battling for control of the ocean floor and the economic implications for global markets."
+    "featured": {
+        "slug": "quantum-computing-breakthrough-2026",
+        "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=1200&auto=format&fit=crop",
+        "category": "Technology",
+        "date": "Feb 24, 2026",
+        "title": "Quantum Supremacy: How IBM's New 1,121-Qubit Processor Changes Everything for Global Cryptography"
     },
     "sideArticles": [
         {
-            "slug": "diplomacy-in-the-digital-age-sovereignty",
-            "image": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=2050&auto=format&fit=crop",
+            "slug": "arctic-silk-road-shipping-boom",
+            "image": "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?q=80&w=1200&auto=format&fit=crop",
             "category": "Global Affairs",
-            "date": "February 23, 2026",
-            "title": "Digital Diplomacy: Sovereignty in the Age of Global Networks"
+            "date": "Feb 23, 2026",
+            "title": "Arctic Revolution: The New Silk Road Opens for Year-Round Commercial Transit"
         },
         {
-            "slug": "inflation-management-strategies-2026",
-            "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2070&auto=format&fit=crop",
-            "category": "Economic",
-            "date": "February 23, 2026",
-            "title": "Managing Inflation: Strategies for a Polarized Global Economy"
+            "slug": "midterm-shift-2026-analysis",
+            "image": "https://images.unsplash.com/photo-1529101091760-61df6be24296?q=80&w=1200&auto=format&fit=crop",
+            "category": "Politics",
+            "date": "Feb 23, 2026",
+            "title": "The 2026 Midterms: A Statistical Breakdown of the Shift in Consumer-Voter Sentiment"
         },
         {
-            "slug": "arctic-exploration-new-frontier-2026",
-            "image": "https://images.unsplash.com/photo-1533230626305-6c7e2d93e981?q=80&w=2067&auto=format&fit=crop",
-            "category": "Featured",
-            "date": "February 23, 2026",
-            "title": "The Melting Frontier: A Journey Through the New Arctic Passages"
+            "slug": "the-neural-interface-breakthrough",
+            "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=1200&auto=format&fit=crop",
+            "category": "Research",
+            "date": "Feb 22, 2026",
+            "title": "Neural Connect: Human Trial of High-Bandwidth Brain-Machine Interface Exceeds Expectations"
         }
     ],
     "bottomArticles": [
         {
-            "slug": "the-hybrid-work-equilibrium-2026",
-            "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop",
-            "category": "Economic",
-            "date": "February 23, 2026",
-            "title": "The End of the Debate: Companies Settle on the 3-2 Hybrid Model"
+            "slug": "fusion-energy-grid-connection",
+            "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=1200&auto=format&fit=crop",
+            "category": "Technology",
+            "date": "Feb 22, 2026",
+            "title": "Clean Power: First Commercial Fusion Reactor Successfully Synchronizes with National Energy Grid"
         },
         {
-            "slug": "peace-talks-middle-east-2026-prospects",
-            "image": "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1932&auto=format&fit=crop",
-            "category": "Global Affairs",
-            "date": "February 23, 2026",
-            "title": "A New Framework for Peace: Assessing Middle East Stability in 2026"
+            "slug": "cbdc-global-adoption-milestone",
+            "image": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?q=80&w=1200&auto=format&fit=crop",
+            "category": "Economic",
+            "date": "Feb 21, 2026",
+            "title": "Sovereign Digital: The Rollout of the Unified European Digital Currency Framework"
+        },
+        {
+            "slug": "un-security-council-expansion-debate",
+            "image": "https://images.unsplash.com/photo-1612831455359-970e23a1e4e9?q=80&w=1200&auto=format&fit=crop",
+            "category": "Politics",
+            "date": "Feb 21, 2026",
+            "title": "The Debate Over Global Governance: Security Council Expansion Hits New Diplomatic Hurdle"
         }
     ],
     "mostRead": [
         {
             "id": 1,
-            "title": "Top 5 Countries for Adventure Travel and Thrilling Experiences",
-            "slug": "top-5-countries",
-            "image": "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop"
+            "title": "The Ethics of AI: When Does a Model Deserve Rights?",
+            "slug": "the-ethics-of-artificial-consciousness",
+            "image": "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?q=80&w=1200&auto=format&fit=crop",
+            "category": "Opinion"
         },
         {
             "id": 2,
-            "title": "Nationalism Gains Momentum Across the World",
-            "slug": "nationalism-gains-momentum",
-            "image": "https://images.unsplash.com/photo-1529101091760-61df6be24296?q=80&w=2076&auto=format&fit=crop"
+            "title": "The Case for Local: Why Resilience Might Matter More than Efficiency",
+            "slug": "globalization-vs-localization-economic-debate",
+            "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=1200&auto=format&fit=crop",
+            "category": "Opinion"
         },
         {
             "id": 3,
-            "title": "How Global Migration Is Changing Policies and Societies",
-            "slug": "global-migration-policies",
-            "image": "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?q=80&w=2050&auto=format&fit=crop"
+            "title": "Degrees or Skills? Why the Future of Education is Modular",
+            "slug": "educational-reform-skill-based-learning",
+            "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop",
+            "category": "Opinion"
         },
         {
             "id": 4,
-            "title": "The Future of Energy Hinges on Global Geopolitics",
-            "slug": "future-of-energy",
-            "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070&auto=format&fit=crop"
+            "title": "Geneva Peace Talks: A New Hope for Middle East Stability",
+            "slug": "leaders-rival-factions-agree-peace-talks",
+            "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?q=80&w=1200&auto=format&fit=crop"
         },
         {
             "id": 5,
-            "title": "The Rise of Nationalism: A Global Trend to Watch",
-            "slug": "rise-of-nationalism",
-            "image": "https://images.unsplash.com/photo-1532375810709-75b1da00537c?q=80&w=2076&auto=format&fit=crop"
-        },
-        {
-            "id": 6,
-            "title": "Your World, One Touch Away: The Ultimate Smartphone Experience",
-            "slug": "ultimate-smartphone",
-            "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=2080&auto=format&fit=crop"
+            "title": "Space Gold Rush: Rare Minerals Returned from Orbit",
+            "slug": "asteroid-mining-pioneer-returns",
+            "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200&auto=format&fit=crop"
         }
     ]
 }

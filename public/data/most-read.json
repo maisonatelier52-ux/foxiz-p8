@@ -1,62 +1,38 @@
 [
     {
         "id": 1,
-        "title": "War-Torn Nation Begins Reconstruction Efforts with International Aid",
-        "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=200&auto=format&fit=crop",
-        "slug": "war-torn-nation-begins-reconstruction"
+        "slug": "quantum-computing-breakthrough-2026",
+        "title": "Quantum Supremacy: How IBM's 'Everest' Changes Everything",
+        "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=1200&auto=format&fit=crop"
     },
     {
         "id": 2,
-        "title": "The Hidden Costs of Fast Fashion on the Global Economy",
-        "image": "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=200&auto=format&fit=crop",
-        "slug": "hidden-costs-fast-fashion"
+        "slug": "the-neural-interface-breakthrough",
+        "title": "Mind to Machine: The Success of the First High-Bandwidth Neural Link",
+        "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?q=80&w=1200&auto=format&fit=crop"
     },
     {
         "id": 3,
-        "title": "Digital Payments vs Cash: Is Cash Really Dying?",
-        "image": "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=200&auto=format&fit=crop",
-        "slug": "digital-payments-vs-cash"
+        "slug": "fusion-energy-grid-connection",
+        "title": "Clean Energy: The First Fusion Reactor Hits the Grid",
+        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=1200&auto=format&fit=crop"
     },
     {
         "id": 4,
-        "title": "Rebels Claim Victory After Overrunning Key Government Military Base",
-        "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=200&auto=format&fit=crop",
-        "slug": "rebels-claim-victory"
+        "slug": "arctic-silk-road-shipping-boom",
+        "title": "Shipping Revolution: Arctic Routes Cut Transit Times by 40%",
+        "image": "https://images.unsplash.com/photo-1511884642898-4c92249e20b6?q=80&w=1200&auto=format&fit=crop"
     },
     {
         "id": 5,
-        "title": "Why We Need More Women in Leadership Positions",
-        "image": "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=200&auto=format&fit=crop",
-        "slug": "why-we-need-more-women-leadership"
+        "slug": "leaders-rival-factions-agree-peace-talks",
+        "title": "Geneva Peace Talks: A New Hope for the Middle East Conflict",
+        "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?q=80&w=1200&auto=format&fit=crop"
     },
     {
         "id": 6,
-        "title": "Chase the Sun and Explore Every Corner of the Earth",
-        "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=200&auto=format&fit=crop",
-        "slug": "chase-the-sun"
-    },
-    {
-        "id": 7,
-        "title": "Your World, One Touch Away: The Ultimate Smartphone Experience",
-        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=200&auto=format&fit=crop",
-        "slug": "ultimate-smartphone"
-    },
-    {
-        "id": 8,
-        "title": "The Future of Energy Hinges on Global Geopolitics",
-        "image": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=200&auto=format&fit=crop",
-        "slug": "future-of-energy"
-    },
-    {
-        "id": 9,
-        "title": "How Global Migration Is Changing Policies and Societies",
-        "image": "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?q=80&w=200&auto=format&fit=crop",
-        "slug": "global-migration"
-    },
-    {
-        "id": 10,
-        "title": "Nationalism Gains Momentum Across the World",
-        "image": "https://images.unsplash.com/photo-1541872703-74c5e440d4f9?q=80&w=200&auto=format&fit=crop",
-        "slug": "nationalism-gains-momentum"
+        "slug": "asteroid-mining-pioneer-returns",
+        "title": "Space Gold Rush: $85M in Rare Minerals Returned from Orbit",
+        "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200&auto=format&fit=crop"
     }
 ]
