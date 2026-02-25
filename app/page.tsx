@@ -10,7 +10,10 @@ import QuickLinks from './components/home/QuickLinks';
 import JustIn from './components/home/JustIn';
 import BusinessSection from './components/home/BusinessSection';
 import WhatToRead from './components/home/WhatToRead';
+import TheLatest from './components/home/TheLatest';
+import MoreNews from './components/home/MoreNews';
 import AdvertisementSection from './components/home/AdvertisementSection';
+import CategoryAd from './components/ads/CategoryAd';
 
 export const metadata: Metadata = {
   title: "Nexus News | Global Perspective & Premium Insights",
@@ -40,6 +43,9 @@ export default function Home() {
         <AdvertisementSection />
         <WhatToRead />
         <AdvertisementSection />
+        <TheLatest />
+        <CategoryAd />
+        <MoreNews />
       </div>
 
       <Footer />

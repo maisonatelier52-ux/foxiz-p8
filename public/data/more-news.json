@@ -1,0 +1,89 @@
+{
+    "articles": [
+        {
+            "slug": "will-ai-take-your-job-economic-impact",
+            "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=800&auto=format&fit=crop",
+            "category": "Economy",
+            "date": "May 13, 2025",
+            "title": "Will AI Take Your Job? The Economic Impact of Automation"
+        },
+        {
+            "slug": "widespread-protests-martial-law-kadria",
+            "image": "https://images.unsplash.com/photo-1570126688035-1e0adbef900e?q=80&w=800&auto=format&fit=crop",
+            "category": "Global Security",
+            "date": "May 13, 2025",
+            "title": "Widespread Protests Erupt After Martial Law Declared in Kadria"
+        },
+        {
+            "slug": "why-we-need-more-women-leadership",
+            "image": "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=800&auto=format&fit=crop",
+            "category": "World",
+            "date": "May 13, 2025",
+            "title": "Why We Need More Women in Leadership Positions"
+        },
+        {
+            "slug": "what-is-a-recession-really",
+            "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=800&auto=format&fit=crop",
+            "category": "Economy",
+            "date": "May 13, 2025",
+            "title": "What Is a Recession, Really? And Should You Be Worried?"
+        },
+        {
+            "slug": "war-torn-nation-begins-reconstruction",
+            "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=800&auto=format&fit=crop",
+            "category": "World",
+            "date": "May 13, 2025",
+            "title": "War-Torn Nation Begins Reconstruction Efforts with International Aid"
+        },
+        {
+            "slug": "uncover-hidden-treasures-world-playground",
+            "image": "https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=800&auto=format&fit=crop",
+            "category": "Travel",
+            "date": "May 13, 2025",
+            "title": "Uncover Hidden Treasures and Make the World Your Playground",
+            "hasVideo": true
+        },
+        {
+            "slug": "blockchain-beyond-cryptocurrency-future",
+            "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=800&auto=format&fit=crop",
+            "category": "Technology",
+            "date": "May 13, 2025",
+            "title": "Blockchain Beyond Cryptocurrency: The Future of Distributed Ledgers"
+        },
+        {
+            "slug": "renewable-energy-surge-global-markets",
+            "image": "https://images.unsplash.com/photo-1509391366360-fe5bb584850a?q=80&w=800&auto=format&fit=crop",
+            "category": "Climate",
+            "date": "May 13, 2025",
+            "title": "Renewable Energy Surge: Global Markets Shift Toward Green Power"
+        },
+        {
+            "slug": "mental-health-workplace-post-covid",
+            "image": "https://images.unsplash.com/photo-1527132820243-df822f392341?q=80&w=800&auto=format&fit=crop",
+            "category": "Health",
+            "date": "May 13, 2025",
+            "title": "Mental Health in the Workplace: Priorities for a Multi-Generational Staff"
+        },
+        {
+            "slug": "quantum-computing-breakthrough-data",
+            "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?q=80&w=800&auto=format&fit=crop",
+            "category": "Technology",
+            "date": "May 13, 2025",
+            "title": "Quantum Computing Breakthrough: A New Era of Data Encryption"
+        },
+        {
+            "slug": "sustainable-urban-farming-mega-cities",
+            "image": "https://images.unsplash.com/photo-1530836361253-9d597b719175?q=80&w=800&auto=format&fit=crop",
+            "category": "Climate",
+            "date": "May 13, 2025",
+            "title": "Sustainable Urban Farming: Feeding the World's Mega-Cities"
+        },
+        {
+            "slug": "financial-literacy-young-investors",
+            "image": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=800&auto=format&fit=crop",
+            "category": "Economy",
+            "date": "May 13, 2025",
+            "title": "Financial Literacy for Young Investors: Navigating Volatile Markets"
+        }
+    ]
+}

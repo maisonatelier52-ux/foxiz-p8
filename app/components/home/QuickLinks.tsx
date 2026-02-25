@@ -14,7 +14,7 @@ export default function QuickLinks() {
                         <Link
                             key={index}
                             href={`/category/${link.toLowerCase().replace(/\s+/g, '-')}`}
-                            className="px-4 py-1.5 bg-gray-100 hover:bg-gray-200 text-[#09365E] font-bold text-xs rounded-lg transition-colors"
+                            className="px-4 py-1.5 bg-gray-100 hover:bg-[#ED1C24] hover:text-white text-[#09365E] font-bold text-xs rounded-lg transition-colors"
                         >
                             {link}
                         </Link>

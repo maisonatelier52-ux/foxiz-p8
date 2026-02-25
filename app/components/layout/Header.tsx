@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react'; // Re-scan trigger
 import {
     Search,
@@ -14,8 +16,14 @@ import {
     FileText
 } from 'lucide-react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Header() {
+    const pathname = usePathname();
+
+    const isActive = (path: string) => pathname === path;
+    const isPagesActive = ['/about-us', '/authors', '/privacy-policy', '/terms-and-conditions'].includes(pathname);
+
     return (
         <header className="flex flex-col w-full font-sans">
             {/* Top Bar - Deep Blue */}
@@ -47,31 +55,47 @@ export default function Header() {
                         <nav className="hidden xl:flex items-center gap-1">
                             <Link
                                 href="/"
-                                className="bg-black text-white px-4 py-2 rounded-md font-bold text-sm hover:bg-gray-900 transition-colors"
+                                className={`px-4 py-2 rounded-md font-bold text-md transition-all duration-300 ${isActive('/') ? 'bg-black text-white' : 'hover:bg-black hover:text-white'
+                                    }`}
                             >
                                 Home
                             </Link>
                             <Link
-                                href="/history"
-                                className="px-4 py-2 font-bold text-sm hover:text-white/80 transition-opacity"
-                            >
-                                Read History
-                            </Link>
-                            <div className="flex items-center gap-1 px-4 py-2 font-bold text-sm cursor-pointer hover:text-white/80 transition-opacity">
-                                Economic <ChevronDown size={14} />
-                            </div>
-                            <div className="flex items-center gap-1 px-4 py-2 font-bold text-sm cursor-pointer hover:text-white/80 transition-opacity">
-                                Global Affairs <ChevronDown size={14} />
-                            </div>
-                            <div className="flex items-center gap-1 px-4 py-2 font-bold text-sm cursor-pointer hover:text-white/80 transition-opacity">
-                                Pages <ChevronDown size={14} />
-                            </div>
-                            <Link
                                 href="/blog"
-                                className="px-4 py-2 font-bold text-sm hover:text-white/80 transition-opacity"
+                                className={`px-4 py-2 rounded-md font-bold text-md transition-all duration-300 ${isActive('/blog') ? 'bg-black text-white' : 'hover:bg-black hover:text-white'
+                                    }`}
                             >
                                 Blog
                             </Link>
+                            <Link
+                                href="/latest-news"
+                                className={`px-4 py-2 rounded-md font-bold text-md transition-all duration-300 ${isActive('/latest-news') ? 'bg-black text-white' : 'hover:bg-black hover:text-white'
+                                    }`}
+                            >
+                                Latest News
+                            </Link>
+                            {/* Pages Dropdown */}
+                            <div className="group relative">
+                                <div className={`flex items-center gap-1 px-4 py-2 rounded-md font-bold text-md cursor-pointer transition-all duration-300 ${isPagesActive ? 'bg-black text-white' : 'hover:bg-black hover:text-white'
+                                    }`}>
+                                    Pages <ChevronDown size={14} />
+                                </div>
+                                {/* Dropdown Menu */}
+                                <div className="absolute top-full left-0 w-52 bg-gradient-to-b from-[#00008B] to-black text-white rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-[100] py-2 mt-2">
+                                    <Link href="/about-us" className="block px-5 py-2.5 text-xs font-bold uppercase tracking-wider hover:bg-red-600 hover:text-white transition-colors">
+                                        About Us
+                                    </Link>
+                                    <Link href="/privacy-policy" className="block px-5 py-2.5 text-xs font-bold uppercase tracking-wider hover:bg-red-600 hover:text-white transition-colors">
+                                        Privacy Policy
+                                    </Link>
+                                    <Link href="/authors" className="block px-5 py-2.5 text-xs font-bold uppercase tracking-wider hover:bg-red-600 hover:text-white transition-colors">
+                                        Authors
+                                    </Link>
+                                    <Link href="/terms-and-conditions" className="block px-5 py-2.5 text-xs font-bold uppercase tracking-wider hover:bg-red-600 hover:text-white transition-colors">
+                                        Terms and Conditions
+                                    </Link>
+                                </div>
+                            </div>
                         </nav>
                     </div>
 
