@@ -8,6 +8,7 @@ import FeaturedStories from './components/home/FeaturedStories';
 import NewsStrip from './components/home/NewsStrip';
 import QuickLinks from './components/home/QuickLinks';
 import JustIn from './components/home/JustIn';
+import BusinessSection from './components/home/BusinessSection';
 
 export const metadata: Metadata = {
   title: "Nexus News | Global Perspective & Premium Insights",
@@ -33,6 +34,7 @@ export default function Home() {
         <NewsStrip />
         <QuickLinks />
         <JustIn />
+        <BusinessSection />
       </div>
 
       <Footer />
