@@ -4,7 +4,7 @@ import quickLinksData from '@/public/data/quick-links.json';
 
 export default function QuickLinks() {
     return (
-        <section className="w-full bg-white py-0 border-b border-gray-100">
+        <section className="w-full bg-white py-0 border-gray-100">
             <div className="max-w-[1330px] mx-auto px-4 flex items-center gap-4 flex-wrap">
                 <span className="text-red-600 font-bold text-sm whitespace-nowrap">
                     Quick Links:
