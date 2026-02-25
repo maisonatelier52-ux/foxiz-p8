@@ -8,7 +8,7 @@ export default function BusinessSection() {
     const { topArticles, bottomArticles } = businessData;
 
     return (
-        <section className="w-full bg-white py-0">
+        <section className="w-full bg-white py-8">
             <div className="max-w-[1330px] mx-auto px-4">
                 {/* Header */}
                 <div className="flex items-center gap-2 mb-6">

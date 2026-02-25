@@ -8,7 +8,7 @@ export default function JustIn() {
     const { mainArticle, bottomArticles } = justInData;
 
     return (
-        <section className="w-full bg-white py-12">
+        <section className="w-full bg-white py-8">
             <div className="max-w-[1330px] mx-auto px-4">
                 <div className="border border-gray-700 rounded-2xl p-4">
                     {/* Header */}

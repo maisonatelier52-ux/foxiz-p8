@@ -1,0 +1,39 @@
+{
+    "mainArticle": {
+        "slug": "peace-talks-fail-tensions-escalate",
+        "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=1200&auto=format&fit=crop",
+        "category": "World",
+        "date": "May 13, 2025",
+        "title": "Peace Talks Fail as Tensions Escalate Between Rival Nations"
+    },
+    "gridArticles": [
+        {
+            "slug": "paramilitary-group-claims-control",
+            "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=600&auto=format&fit=crop",
+            "category": "Global Security",
+            "date": "May 13, 2025",
+            "title": "Paramilitary Group Claims Control Over Eastern Varnok"
+        },
+        {
+            "slug": "gryndor-intelligence-agency-launches-hunt",
+            "image": "https://images.unsplash.com/photo-1579913741637-8858ce1c9e43?q=80&w=600&auto=format&fit=crop",
+            "category": "Global Security",
+            "date": "May 13, 2025",
+            "title": "Gryndor Intelligence Agency Launches Hunt for Escaped War Criminal"
+        },
+        {
+            "slug": "5-ways-small-businesses-can-thrive",
+            "image": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=600&auto=format&fit=crop",
+            "category": "Economy",
+            "date": "May 13, 2025",
+            "title": "5 Ways Small Businesses Can Thrive in a Challenging Economy"
+        },
+        {
+            "slug": "what-is-a-recession-really",
+            "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?q=80&w=600&auto=format&fit=crop",
+            "category": "Economy",
+            "date": "May 13, 2025",
+            "title": "What Is a Recession, Really? And Should You Be Worried?"
+        }
+    ]
+}
