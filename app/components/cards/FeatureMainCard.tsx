@@ -21,7 +21,7 @@ export default function FeatureMainCard({ article }: FeatureMainCardProps) {
         <div className="flex flex-col gap-4 group mb-8 md:mb-8">
             {/* Image */}
             <Link
-                href={`/news/${article.slug}`}
+                href={`/articles/${article.slug}`}
                 className="block relative overflow-hidden rounded-xl aspect-[16/10] bg-gray-100"
             >
                 <img
@@ -55,7 +55,7 @@ export default function FeatureMainCard({ article }: FeatureMainCardProps) {
             </div>
 
             {/* Title */}
-            <Link href={`/news/${article.slug}`}>
+            <Link href={`/articles/${article.slug}`}>
                 <h1 className="text-3xl text-[#09365E] md:text-4xl font-extrabold leading-tight hover:underline transition-colors">
                     {article.title}
                 </h1>

@@ -21,7 +21,7 @@ export default function BusinessSection() {
                     {topArticles.map((article, index) => (
                         <div key={index} className={`flex gap-6 group ${index === 0 ? 'md:border-r md:border-gray-200 md:pr-10' : 'md:pl-10'}`}>
                             {/* Image */}
-                            <Link href={`/news/${article.slug}`} className="block relative overflow-hidden rounded-xl w-[220px] aspect-[1.6/1] flex-shrink-0 bg-gray-100">
+                            <Link href={`/articles/${article.slug}`} className="block relative overflow-hidden rounded-xl w-[220px] aspect-[1.6/1] flex-shrink-0 bg-gray-100">
                                 <img
                                     src={article.image}
                                     alt={article.title}
@@ -43,7 +43,7 @@ export default function BusinessSection() {
                                         <Bookmark size={16} />
                                     </button>
                                 </div>
-                                <Link href={`/news/${article.slug}`}>
+                                <Link href={`/articles/${article.slug}`}>
                                     <h3 className="text-[20px] md:text-[22px] font-bold leading-tight text-[#09365E] group-hover:text-red-600 transition-colors">
                                         {article.title}
                                     </h3>

@@ -19,7 +19,7 @@ export default function HorizontalCard({ article }: HorizontalCardProps) {
         <div className="flex gap-6 group">
             {/* Image */}
             <Link
-                href={`/news/${article.slug}`}
+                href={`/articles/${article.slug}`}
                 className="block relative overflow-hidden rounded-xl w-[200px] aspect-[16/10] flex-shrink-0 bg-gray-100"
             >
                 <img
@@ -46,7 +46,7 @@ export default function HorizontalCard({ article }: HorizontalCardProps) {
                 </div>
 
                 {/* Title */}
-                <Link href={`/news/${article.slug}`}>
+                <Link href={`/articles/${article.slug}`}>
                     <h3 className="text-[16px] text-[#09365E] font-bold leading-[1.3] group-hover:text-[#E12A32] transition-colors line-clamp-3">
                         {article.title}
                     </h3>

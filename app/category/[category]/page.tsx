@@ -9,12 +9,13 @@ import fs from 'fs/promises';
 import path from 'path';
 
 interface CategoryPageProps {
-    params: {
+    params: Promise<{
         category: string;
-    };
+    }>;
 }
 
 async function getCategoryData(category: string) {
+    if (!category) return null;
     try {
         const filePath = path.join(process.cwd(), 'public', 'data', 'categoryNews', `${category.toLowerCase()}.json`);
         const content = await fs.readFile(filePath, 'utf-8');
@@ -25,7 +26,7 @@ async function getCategoryData(category: string) {
 }
 
 export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
-    const { category } = await (params as any);
+    const { category } = await params;
     const data = await getCategoryData(category);
     const title = data?.title || category.charAt(0).toUpperCase() + category.slice(1);
 
@@ -36,7 +37,7 @@ export async function generateMetadata({ params }: CategoryPageProps): Promise<M
 }
 
 export default async function CategoryPage({ params }: CategoryPageProps) {
-    const { category } = await (params as any);
+    const { category } = await params;
     const data = await getCategoryData(category);
 
     if (!data) {

@@ -16,7 +16,7 @@ export default function FeaturedVerticalCard({ slug, image, category, date, titl
     return (
         <div className="flex flex-col gap-4 group">
             {/* Image */}
-            <Link href={`/news/${slug}`} className="block relative overflow-hidden rounded-xl aspect-[4/5] bg-gray-100">
+            <Link href={`/articles/${slug}`} className="block relative overflow-hidden rounded-xl aspect-[4/5] bg-gray-100">
                 <img
                     src={image || fallbackImage}
                     alt={title}
@@ -41,7 +41,7 @@ export default function FeaturedVerticalCard({ slug, image, category, date, titl
             </div>
 
             {/* Title */}
-            <Link href={`/news/${slug}`}>
+            <Link href={`/articles/${slug}`}>
                 <h3 className="text-xl md:text-[18px] font-bold leading-tight text-[#09365E] group-hover:text-red-600 transition-colors">
                     {title}
                 </h3>

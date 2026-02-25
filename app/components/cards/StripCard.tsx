@@ -14,7 +14,7 @@ export default function StripCard({ slug, image, category, title, hasVideo }: St
     return (
         <div className="flex flex-col gap-3 group border-r border-gray-100 last:border-0 pr-4 last:pr-0">
             {/* Image */}
-            <Link href={`/news/${slug}`} className="block relative overflow-hidden rounded-xl aspect-[1.3/1] bg-gray-100">
+            <Link href={`/articles/${slug}`} className="block relative overflow-hidden rounded-xl aspect-[1.3/1] bg-gray-100">
                 <img
                     src={image}
                     alt={title}
@@ -38,7 +38,7 @@ export default function StripCard({ slug, image, category, title, hasVideo }: St
             </div>
 
             {/* Title */}
-            <Link href={`/news/${slug}`}>
+            <Link href={`/articles/${slug}`}>
                 <h3 className="text-[15px] font-bold leading-[1.3] text-[#09365E] group-hover:text-red-600 transition-colors line-clamp-4">
                     {title}
                 </h3>

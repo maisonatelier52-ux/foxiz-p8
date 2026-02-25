@@ -18,7 +18,7 @@ export default function WhatToRead() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     {/* Left Side: Large Feature with Red Overlay */}
                     <div className="relative group overflow-hidden rounded-xl aspect-[4/3] lg:aspect-auto lg:h-full min-h-[500px]">
-                        <Link href={`/news/${mainArticle.slug}`} className="block h-full">
+                        <Link href={`/articles/${mainArticle.slug}`} className="block h-full">
                             <img
                                 src={mainArticle.image}
                                 alt={mainArticle.title}
@@ -43,7 +43,7 @@ export default function WhatToRead() {
                                     <Bookmark size={20} />
                                 </button>
                             </div>
-                            <Link href={`/news/${mainArticle.slug}`}>
+                            <Link href={`/articles/${mainArticle.slug}`}>
                                 <h3 className="text-2xl md:text-3xl lg:text-4xl font-extrabold leading-tight">
                                     {mainArticle.title}
                                 </h3>
@@ -56,7 +56,7 @@ export default function WhatToRead() {
                         {gridArticles.map((article, index) => (
                             <div key={index} className="flex flex-col gap-4 group">
                                 {/* Image */}
-                                <Link href={`/news/${article.slug}`} className="block relative overflow-hidden rounded-xl aspect-[1.5/1] bg-gray-100">
+                                <Link href={`/articles/${article.slug}`} className="block relative overflow-hidden rounded-xl aspect-[1.5/1] bg-gray-100">
                                     <img
                                         src={article.image}
                                         alt={article.title}
@@ -83,7 +83,7 @@ export default function WhatToRead() {
                                     </div>
 
                                     {/* Title */}
-                                    <Link href={`/news/${article.slug}`}>
+                                    <Link href={`/articles/${article.slug}`}>
                                         <h3 className="text-[17px] font-bold leading-tight text-[#09365E] group-hover:text-red-600 transition-colors line-clamp-3">
                                             {article.title}
                                         </h3>

@@ -20,7 +20,7 @@ export default function JustIn() {
                     {/* Main Article (Horizontal) */}
                     <div className="flex flex-col md:flex-row gap-8 items-center mb-6">
                         <div className="w-full md:w-[45%]">
-                            <Link href={`/news/${mainArticle.slug}`} className="block overflow-hidden rounded-xl aspect-[1.5/1]">
+                            <Link href={`/articles/${mainArticle.slug}`} className="block overflow-hidden rounded-xl aspect-[1.5/1]">
                                 <img
                                     src={mainArticle.image}
                                     alt={mainArticle.title}
@@ -41,7 +41,7 @@ export default function JustIn() {
                                     <Bookmark size={18} />
                                 </button>
                             </div>
-                            <Link href={`/news/${mainArticle.slug}`}>
+                            <Link href={`/articles/${mainArticle.slug}`}>
                                 <h3 className="text-3xl md:text-4xl font-bold leading-tight text-[#09365E] hover:text-red-600 transition-colors">
                                     {mainArticle.title}
                                 </h3>

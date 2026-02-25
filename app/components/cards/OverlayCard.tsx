@@ -11,7 +11,7 @@ interface OverlayCardProps {
 export default function OverlayCard({ slug, image, category, title }: OverlayCardProps) {
     return (
         <div className="group relative block overflow-hidden rounded-xl aspect-[1.6/1]">
-            <Link href={`/news/${slug}`} className="absolute inset-0 z-0">
+            <Link href={`/articles/${slug}`} className="absolute inset-0 z-0">
                 <img
                     src={image}
                     alt={title}
@@ -28,7 +28,7 @@ export default function OverlayCard({ slug, image, category, title }: OverlayCar
                 >
                     {category}
                 </Link>
-                <Link href={`/news/${slug}`} className="pointer-events-auto">
+                <Link href={`/articles/${slug}`} className="pointer-events-auto">
                     <h3 className="text-lg font-bold leading-tight text-white group-hover:text-red-400 transition-colors drop-shadow-md">
                         {title}
                     </h3>

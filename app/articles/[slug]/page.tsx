@@ -1,113 +1,220 @@
 import React from 'react';
-import Header from '@/app/components/layout/Header';
-import Footer from '@/app/components/layout/Footer';
-import articlesIndex from '@/public/data/all-articles-index.json';
 import Link from 'next/link';
-import { Metadata } from 'next';
+import Header from '../../components/layout/Header';
+import Footer from '../../components/layout/Footer';
+import ArticleHeader from '../../components/article/ArticleHeader';
+import ArticleMeta from '../../components/article/ArticleMeta';
+import ArticleActions from '../../components/article/ArticleActions';
+import ArticleStickyShare from '../../components/article/ArticleStickyShare';
+import ArticleTableOfContents from '../../components/article/ArticleTableOfContents';
+import ArticlePullQuote from '../../components/article/ArticlePullQuote';
+import MostReadWidget from '../../components/article/MostReadWidget';
+import NewsletterSidebar from '../../components/article/NewsletterSidebar';
 import fs from 'fs/promises';
 import path from 'path';
-
-interface ArticlePageProps {
-    params: {
-        slug: string;
-    };
-}
-
-export async function generateMetadata({ params }: ArticlePageProps): Promise<Metadata> {
-    const { slug } = await (params as any);
-    const article = articlesIndex.find(a => a.slug === slug);
-    return {
-        title: article ? `${article.title} | Nexus News` : 'Article | Nexus News',
-        description: article?.shortdescription,
-    };
-}
+import { Metadata } from 'next';
 
 async function getArticleData(slug: string) {
+    if (!slug) return null;
     try {
         const filePath = path.join(process.cwd(), 'public', 'data', 'articles', `${slug}.json`);
-        const content = await fs.readFile(filePath, 'utf-8');
-        return JSON.parse(content);
-    } catch (err) {
+        const fileContent = await fs.readFile(filePath, 'utf8');
+        return JSON.parse(fileContent);
+    } catch (error) {
+        console.error('Error loading article data:', error);
         return null;
     }
 }
 
-export default async function ArticlePage({ params }: ArticlePageProps) {
-    const { slug } = await (params as any);
-    const article = await getArticleData(slug);
-    const indexInfo = articlesIndex.find(a => a.slug === slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+    const { slug } = await params;
+    const articleData = await getArticleData(slug);
+    if (!articleData) return { title: 'Article Not Found' };
 
-    if (!article) {
-        if (!indexInfo) return <div>Article not found</div>;
+    return {
+        title: `${articleData.title} | Foxiz News`,
+        description: articleData.excerpt || 'Read the latest news report on Foxiz.',
+    };
+}
+
+export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const articleData = await getArticleData(slug);
+
+    if (!articleData) {
         return (
-            <main className="min-h-screen flex flex-col">
+            <main className="min-h-screen flex flex-col items-center justify-center bg-white p-4">
                 <Header />
-                <div className="flex-grow flex items-center justify-center">
-                    <p className="text-xl text-muted">Article content is being updated. Please check back soon.</p>
+                <div className="flex-grow flex flex-col items-center justify-center text-center">
+                    <h1 className="text-4xl font-bold text-[#09365E] mb-4">Article Not Found</h1>
+                    <p className="text-gray-500 mb-8">The article you are looking for might have been moved or deleted.</p>
+                    <Link href="/" className="px-6 py-3 bg-[#09365E] text-white font-bold rounded-lg hover:bg-black transition-colors">
+                        Back to Home
+                    </Link>
                 </div>
                 <Footer />
             </main>
         );
     }
 
+    // Normalize author data for ArticleMeta
+    const normalizedAuthor = {
+        name: articleData.author?.name || 'Anonymous',
+        role: articleData.author?.role || 'Staff Writer',
+        avatar: articleData.author?.avatar || articleData.author?.image || 'https://i.pravatar.cc/150?u=staff'
+    };
+
     return (
-        <main className="min-h-screen flex flex-col">
+        <main className="min-h-screen flex flex-col bg-white">
             <Header />
 
-            <article className="flex-grow max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-                <header className="mb-12 text-center">
-                    <Link href={`/category/${article.category.toLowerCase()}`} className="inline-block px-4 py-1.5 bg-primary/10 text-primary text-xs font-black uppercase tracking-widest rounded-full mb-8">
-                        {article.category}
-                    </Link>
-                    <h1 className="font-serif text-4xl md:text-6xl font-black leading-tight mb-8">
-                        {article.title}
-                    </h1>
-                    <p className="text-xl md:text-2xl text-muted font-light leading-relaxed mb-12 italic">
-                        {indexInfo?.shortdescription}
-                    </p>
-                    <div className="flex items-center justify-center gap-6 text-sm border-y border-border py-6">
-                        <div className="flex items-center gap-3">
-                            <div className="w-10 h-10 rounded-full overflow-hidden">
-                                <img src={article.author.image || '/images/news/markets-1.webp'} alt={article.author.name} className="w-full h-full object-cover" />
-                            </div>
-                            <span className="font-bold">{article.author.name}</span>
-                        </div>
-                        <span className="text-muted opacity-30">|</span>
-                        <span className="text-muted uppercase tracking-widest font-bold text-xs">{article.date}</span>
-                    </div>
-                </header>
-
-                <div className="relative aspect-[21/9] rounded-3xl overflow-hidden mb-16 shadow-2xl">
-                    <img
-                        src={article.image || '/images/news/markets-1.webp'}
-                        alt={article.title}
-                        className="absolute inset-0 w-full h-full object-cover"
+            <div className="flex-grow">
+                <div className="max-w-[1330px] mx-auto px-4 py-8 lg:py-12">
+                    {/* Header takes full width */}
+                    <ArticleHeader
+                        category={articleData.category}
+                        title={articleData.title}
+                        excerpt={articleData.excerpt || (articleData.content?.[0]?.type === 'intro' ? articleData.content[0].text : '')}
                     />
-                </div>
 
-                <div className="prose prose-xl prose-slate max-w-none font-sans leading-loose text-foreground/90">
-                    {article.content.map((block: any, idx: number) => {
-                        if (block.type === 'intro' || block.type === 'paragraph') {
-                            return (
-                                <p key={idx} className={`${block.hasDropCap ? 'text-2xl font-serif mb-8 first-letter:text-7xl first-letter:font-black first-letter:mr-3 first-letter:float-left first-letter:text-primary mb-8' : 'mb-8'}`}>
-                                    {block.text}
-                                </p>
-                            );
-                        }
-                        if (block.type === 'heading') {
-                            return <h2 key={idx} className="font-serif text-3xl font-black mt-16 mb-8 underline decoration-primary/30 decoration-8 underline-offset-4">{block.text}</h2>;
-                        }
-                        if (block.type === 'quote') {
-                            return (
-                                <blockquote key={idx} className="border-l-4 border-primary pl-8 my-12 italic text-3xl font-serif text-muted">
-                                    "{block.text}"
-                                </blockquote>
-                            );
-                        }
-                        return null;
-                    })}
+                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mt-8">
+                        {/* Sticky Social Share Column (Left) */}
+                        <div className="hidden lg:block lg:col-span-1">
+                            <ArticleStickyShare />
+                        </div>
+
+                        {/* Main Content Column */}
+                        <div className="lg:col-span-7">
+                            <ArticleMeta
+                                author={normalizedAuthor}
+                                lastUpdated={articleData.lastUpdated || articleData.date || 'Recently Updated'}
+                            />
+
+                            <ArticleActions
+                                readTime={articleData.readTime || '5 Min'}
+                            />
+
+                            {/* Main Image */}
+                            <div className="w-full rounded-2xl overflow-hidden mb-10 shadow-sm border border-gray-100">
+                                <img
+                                    src={articleData.mainImage || articleData.image}
+                                    alt={articleData.title}
+                                    className="w-full h-auto object-cover"
+                                />
+                            </div>
+
+                            {/* Article Body Content */}
+                            <div className="max-w-none text-[18px] text-gray-700 leading-relaxed font-normal">
+                                {articleData.paragraphs ? (
+                                    <>
+                                        {/* Render using the simple paragraphs array */}
+                                        <p className="mb-6 first-letter:text-6xl first-letter:font-black first-letter:text-[#09365E] first-letter:float-left first-letter:mr-3 first-letter:leading-[0.85]">
+                                            {articleData.paragraphs[0]}
+                                        </p>
+
+                                        <ArticleTableOfContents />
+
+                                        {articleData.paragraphs.slice(1, 4).map((para: string, index: number) => (
+                                            <p key={index} className="mb-6">{para}</p>
+                                        ))}
+
+                                        {articleData.quote && (
+                                            <ArticlePullQuote
+                                                quote={articleData.quote}
+                                                author={articleData.quoteAuthor || 'Anonymous'}
+                                            />
+                                        )}
+
+                                        {articleData.paragraphs.slice(4).map((para: string, index: number) => (
+                                            <p key={index} className="mb-6">{para}</p>
+                                        ))}
+                                    </>
+                                ) : articleData.content ? (
+                                    <>
+                                        {/* Render using the structured content array */}
+                                        {articleData.content.map((block: any, index: number) => {
+                                            const isFirstPara = index === 0;
+
+                                            if (block.type === 'intro' || block.type === 'paragraph') {
+                                                return (
+                                                    <React.Fragment key={index}>
+                                                        <p className={`mb-6 ${isFirstPara ? 'first-letter:text-6xl first-letter:font-black first-letter:text-[#09365E] first-letter:float-left first-letter:mr-3 first-letter:leading-[0.85]' : ''}`}>
+                                                            {block.text}
+                                                        </p>
+                                                        {isFirstPara && <ArticleTableOfContents />}
+                                                    </React.Fragment>
+                                                );
+                                            }
+                                            if (block.type === 'heading') {
+                                                return (
+                                                    <h2 key={index} className="text-2xl font-bold text-[#09365E] mt-10 mb-6">
+                                                        {block.text}
+                                                    </h2>
+                                                );
+                                            }
+                                            if (block.type === 'quote') {
+                                                return (
+                                                    <ArticlePullQuote
+                                                        key={index}
+                                                        quote={block.text}
+                                                        author={block.author || 'Source'}
+                                                    />
+                                                );
+                                            }
+                                            return null;
+                                        })}
+                                    </>
+                                ) : (
+                                    <p className="italic text-gray-400">No content available for this article.</p>
+                                )}
+                            </div>
+                        </div>
+
+                        {/* Sidebar Column (Right) */}
+                        <div className="lg:col-span-4 border-l border-gray-100 pl-10">
+                            <div className="sticky top-24 flex flex-col gap-12">
+                                {/* Social Follow Widget */}
+                                <div className="grid grid-cols-2 gap-3">
+                                    <div className="bg-[#09365E] text-white p-4 rounded-xl flex items-center gap-3 cursor-pointer hover:bg-black transition-all">
+                                        <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center font-black">f</div>
+                                        <div className="flex flex-col">
+                                            <span className="text-[10px] font-bold uppercase opacity-70 tracking-tighter">Facebook</span>
+                                            <span className="text-xs font-bold">Like</span>
+                                        </div>
+                                    </div>
+                                    <div className="bg-[#09365E] text-white p-4 rounded-xl flex items-center gap-3 cursor-pointer hover:bg-black transition-all">
+                                        <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center font-black italic">X</div>
+                                        <div className="flex flex-col">
+                                            <span className="text-[10px] font-bold uppercase opacity-70 tracking-tighter">X</span>
+                                            <span className="text-xs font-bold">Follow</span>
+                                        </div>
+                                    </div>
+                                    <div className="bg-[#09365E] text-white p-4 rounded-xl flex items-center gap-3 cursor-pointer hover:bg-black transition-all">
+                                        <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center font-black italic">In</div>
+                                        <div className="flex flex-col">
+                                            <span className="text-[10px] font-bold uppercase opacity-70 tracking-tighter">Instagram</span>
+                                            <span className="text-xs font-bold">Follow</span>
+                                        </div>
+                                    </div>
+                                    <div className="bg-[#09365E] text-white p-4 rounded-xl flex items-center gap-3 cursor-pointer hover:bg-black transition-all">
+                                        <div className="w-8 h-8 rounded-lg bg-white/10 flex items-center justify-center font-black italic">Li</div>
+                                        <div className="flex flex-col">
+                                            <span className="text-[10px] font-bold uppercase opacity-70 tracking-tighter">LinkedIn</span>
+                                            <span className="text-xs font-bold">Follow</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Newsletter Sidebar */}
+                                <NewsletterSidebar />
+
+                                {/* Most Read Widget */}
+                                <MostReadWidget />
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </article>
+            </div>
 
             <Footer />
         </main>
