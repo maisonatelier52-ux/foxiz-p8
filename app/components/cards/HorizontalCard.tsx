@@ -13,7 +13,6 @@ interface HorizontalCardProps {
 }
 
 export default function HorizontalCard({ article }: HorizontalCardProps) {
-    const fallbackImage = '/images/news/markets-1.webp';
 
     return (
         <div className="flex gap-6 group">
@@ -23,7 +22,7 @@ export default function HorizontalCard({ article }: HorizontalCardProps) {
                 className="block relative overflow-hidden rounded-xl w-[200px] aspect-[16/10] flex-shrink-0 bg-gray-100"
             >
                 <img
-                    src={article.image || fallbackImage}
+                    src={article.image}
                     alt={article.title}
                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
