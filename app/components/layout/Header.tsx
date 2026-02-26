@@ -67,13 +67,6 @@ export default function Header() {
                             >
                                 Blog
                             </Link>
-                            <Link
-                                href="/latest-news"
-                                className={`px-4 py-2 rounded-md font-bold text-md transition-all duration-300 ${isActive('/latest-news') ? 'bg-black text-white' : 'hover:bg-black hover:text-white'
-                                    }`}
-                            >
-                                Latest News
-                            </Link>
                             {/* Pages Dropdown */}
                             <div className="group relative">
                                 <div className={`flex items-center gap-1 px-4 py-2 rounded-md font-bold text-md cursor-pointer transition-all duration-300 ${isPagesActive ? 'bg-black text-white' : 'hover:bg-black hover:text-white'
