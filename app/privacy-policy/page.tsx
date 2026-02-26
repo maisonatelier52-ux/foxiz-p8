@@ -47,7 +47,7 @@ export default function PrivacyPolicyPage() {
                     {/* Header Title */}
                     <div className="flex items-center gap-3 mb-8">
                         <div className="w-1.5 h-10 bg-red-600"></div>
-                        <h1 className="text-4xl md:text-5xl font-black italic tracking-tighter text-gray-900 uppercase">
+                        <h1 className="text-4xl md:text-5xl font-black tracking-tighter text-gray-900 uppercase">
                             Privacy Policy
                         </h1>
                     </div>
@@ -58,7 +58,7 @@ export default function PrivacyPolicyPage() {
                             <Lock size={120} />
                         </div>
                         <p className="text-lg md:text-xl leading-relaxed relative z-10 font-medium text-blue-50">
-                            Your privacy is important to us at <span className="font-black italic text-yellow-400">FOXIZ</span>. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
+                            Your privacy is important to us at <span className="font-black text-yellow-400">FOXIZ</span>. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.
                         </p>
                     </div>
 
@@ -66,8 +66,8 @@ export default function PrivacyPolicyPage() {
                         {/* 1. Information We Collect */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">01</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Information We Collect</h2>
+                                <div className="text-4xl font-black text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">01</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Information We Collect</h2>
                             </div>
 
                             <div className="space-y-8">
@@ -104,8 +104,8 @@ export default function PrivacyPolicyPage() {
                         {/* 2. How We Use Your Information */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-[#00008B]/10 group-hover:text-[#00008B]/20 transition-colors">02</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Usage of Information</h2>
+                                <div className="text-4xl font-black text-[#00008B]/10 group-hover:text-[#00008B]/20 transition-colors">02</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Usage of Information</h2>
                             </div>
                             <p className="text-base md:text-lg leading-relaxed mb-6 text-gray-700">
                                 We use the information we collect in the following ways:
@@ -132,8 +132,8 @@ export default function PrivacyPolicyPage() {
                         {/* 3. Disclosure of Your Information */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">03</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Disclosure</h2>
+                                <div className="text-4xl font-black text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">03</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Disclosure</h2>
                             </div>
                             <p className="text-base md:text-lg leading-relaxed mb-6 text-gray-700">
                                 We may share your information in the following situations:
@@ -156,8 +156,8 @@ export default function PrivacyPolicyPage() {
                         {/* 4. Cookies */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">04</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Cookies</h2>
+                                <div className="text-4xl font-black text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">04</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Cookies</h2>
                             </div>
                             <p className="text-base md:text-lg leading-relaxed text-gray-700">
                                 We use cookies and similar tracking technologies to track activity on our website and store certain information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our website.
@@ -167,8 +167,8 @@ export default function PrivacyPolicyPage() {
                         {/* 5. Data Security */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">05</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Data Security</h2>
+                                <div className="text-4xl font-black text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">05</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Data Security</h2>
                             </div>
                             <div className="border-2 border-dashed border-gray-200 rounded-3xl p-8 text-center bg-gray-50/50">
                                 <ShieldCheck className="w-12 h-12 text-green-600 mx-auto mb-4" />
@@ -181,8 +181,8 @@ export default function PrivacyPolicyPage() {
                         {/* 6. Privacy Rights */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">06</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Your Privacy Rights</h2>
+                                <div className="text-4xl font-black text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">06</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Your Privacy Rights</h2>
                             </div>
                             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 list-none p-0">
                                 {[
@@ -203,8 +203,8 @@ export default function PrivacyPolicyPage() {
                         {/* 7. Third-Party Links */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">07</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Third-Party Links</h2>
+                                <div className="text-4xl font-black text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">07</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Third-Party Links</h2>
                             </div>
                             <p className="text-base md:text-lg leading-relaxed text-gray-700">
                                 Our website may contain links to third-party websites. We are not responsible for the privacy practices of these external sites. We encourage you to read their privacy policies before providing any personal information.
@@ -214,8 +214,8 @@ export default function PrivacyPolicyPage() {
                         {/* 8. Children's Privacy */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">08</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Children's Privacy</h2>
+                                <div className="text-4xl font-black text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">08</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Children's Privacy</h2>
                             </div>
                             <p className="text-base md:text-lg leading-relaxed text-gray-700">
                                 Our services are not directed to individuals under the age of 13. We do not knowingly collect personal information from children. If you become aware that a child has provided us with personal data, please contact us immediately.
@@ -225,13 +225,13 @@ export default function PrivacyPolicyPage() {
                         {/* 9. Changes */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">09</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Changes to This Policy</h2>
+                                <div className="text-4xl font-black text-[#00008B]/10 group-hover:text-red-600/20 transition-colors">09</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Changes to This Policy</h2>
                             </div>
                             <p className="text-base md:text-lg leading-relaxed text-gray-700">
                                 We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes.
                             </p>
-                           
+
                         </div>
                     </div>
                 </div>

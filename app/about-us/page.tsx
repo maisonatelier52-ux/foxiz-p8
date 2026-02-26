@@ -54,7 +54,7 @@ export default function AboutUsPage() {
                             <div className="lg:col-span-8 p-8 md:p-12 border-b lg:border-b-0 lg:border-r border-gray-100">
                                 <div className="flex items-center gap-3 mb-8">
                                     <div className="w-1.5 h-10 bg-red-600"></div>
-                                    <h1 className="text-4xl md:text-5xl font-black italic tracking-tighter text-gray-900">
+                                    <h1 className="text-4xl md:text-5xl font-black tracking-tighter text-gray-900">
                                         OUR STORY
                                     </h1>
                                 </div>
@@ -68,7 +68,7 @@ export default function AboutUsPage() {
                                     <p>
                                         Through market upheavals, global crises, and technological revolutions, we've remained steadfast in our mission: to inform and empower our audience with reliable, well-researched journalism that cuts through the noise.
                                     </p>
-                                    <p className="text-xl md:text-2xl font-bold text-red-600 pt-4 italic">
+                                    <p className="text-xl md:text-2xl font-bold text-red-600 pt-4">
                                         At Foxiz, we don't just report the news — we help you understand what it means for the world and your future.
                                     </p>
                                 </div>
@@ -111,7 +111,7 @@ export default function AboutUsPage() {
                             <div className="bg-red-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-white/10 transition-all">
                                 <Newspaper className="w-8 h-8 text-red-600 group-hover:text-white transition-colors" />
                             </div>
-                            <h2 className="text-3xl font-black italic tracking-tighter mb-6 text-gray-900 group-hover:text-white transition-colors">OUR MISSION</h2>
+                            <h2 className="text-3xl font-black tracking-tighter mb-6 text-gray-900 group-hover:text-white transition-colors">OUR MISSION</h2>
                             <p className="text-lg leading-relaxed text-gray-600 group-hover:text-blue-100 transition-colors">
                                 To deliver accurate, unbiased, and timely news that empowers our readers to make informed decisions.
                                 We are committed to investigative journalism that holds power accountable and gives voice to the voiceless,
@@ -124,7 +124,7 @@ export default function AboutUsPage() {
                             <div className="bg-blue-50 w-16 h-16 rounded-2xl flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-white/10 transition-all">
                                 <Globe className="w-8 h-8 text-[#00008B] group-hover:text-white transition-colors" />
                             </div>
-                            <h2 className="text-3xl font-black italic tracking-tighter mb-6 text-gray-900 group-hover:text-white transition-colors">OUR VISION</h2>
+                            <h2 className="text-3xl font-black tracking-tighter mb-6 text-gray-900 group-hover:text-white transition-colors">OUR VISION</h2>
                             <p className="text-lg leading-relaxed text-gray-600 group-hover:text-blue-100 transition-colors">
                                 To be the most trusted and respected news source globally, recognized for our commitment to truth,
                                 journalistic excellence, and positive impact on society. We envision a world where quality journalism thrives
@@ -140,7 +140,7 @@ export default function AboutUsPage() {
                 <div className="max-w-[1330px] mx-auto">
                     <div className="text-center mb-16">
                         <div className="text-red-600 font-bold uppercase tracking-[0.3em] text-xs mb-4">Values & Standards</div>
-                        <h2 className="text-4xl md:text-5xl font-black italic tracking-tighter text-gray-900">EDITORIAL PRINCIPLES</h2>
+                        <h2 className="text-4xl md:text-5xl font-black tracking-tighter text-gray-900">EDITORIAL PRINCIPLES</h2>
                     </div>
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -194,7 +194,7 @@ export default function AboutUsPage() {
             {/* Newsletter Call to Action */}
             <section className="py-20 px-4 bg-[#00008B] text-white">
                 <div className="max-w-[1330px] mx-auto text-center">
-                    <h2 className="text-4xl md:text-5xl font-black italic tracking-tighter mb-8">JOIN THE FOXIZ COMMUNITY</h2>
+                    <h2 className="text-4xl md:text-5xl font-black tracking-tighter mb-8">JOIN THE FOXIZ COMMUNITY</h2>
                     <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto">
                         Get the most important stories delivered to your inbox every morning. Stay informed with the global perspective.
                     </p>

@@ -100,13 +100,13 @@ export default function Footer() {
                                 *** About Company
                             </span>
                             <div className="flex flex-wrap items-center gap-x-3 gap-y-2 text-sm font-bold">
-                                <Link href="/contact" className="hover:text-red-500 transition-colors">Contact Us</Link>
+                                <Link href="/about-us" className="hover:text-red-500 transition-colors">About Us</Link>
                                 <span className="text-white/20 font-normal">|</span>
-                                <Link href="/advertise" className="hover:text-red-500 transition-colors">Advertise with US</Link>
+                                <Link href="/privacy-policy" className="hover:text-red-500 transition-colors">Privacy Policy</Link>
                                 <span className="text-white/20 font-normal">|</span>
-                                <Link href="/privacy" className="hover:text-red-500 transition-colors">Privacy Policy</Link>
+                                <Link href="/authors" className="hover:text-red-500 transition-colors">Authors</Link>
                                 <span className="text-white/20 font-normal">|</span>
-                                <Link href="/submit-tip" className="hover:text-red-500 transition-colors">Submit a Tip</Link>
+                                <Link href="/terms-and-conditions" className="hover:text-red-500 transition-colors">Terms and Conditions</Link>
                             </div>
                         </div>
                     </div>

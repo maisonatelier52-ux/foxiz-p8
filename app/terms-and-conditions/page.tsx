@@ -46,7 +46,7 @@ export default function TermsConditionsPage() {
                 <div className="max-w-[800px] mx-auto px-4 text-center md:text-left">
                     <div className="flex flex-col md:flex-row md:items-center gap-4 mb-6">
                         <div className="hidden md:block w-1.5 h-10 bg-red-600"></div>
-                        <h1 className="text-4xl md:text-5xl font-black italic tracking-tighter text-gray-900 uppercase">
+                        <h1 className="text-4xl md:text-5xl font-black tracking-tighter text-gray-900 uppercase">
                             Terms & Conditions
                         </h1>
                     </div>
@@ -68,7 +68,7 @@ export default function TermsConditionsPage() {
                             <FileText size={140} />
                         </div>
                         <p className="text-lg md:text-xl leading-relaxed relative z-10 font-medium text-blue-50">
-                            Your use of the <span className="font-black italic text-yellow-400">FOXIZ</span> platform and our digital services is subject to these Terms & Conditions. By accessing or using Foxiz, you agree to be bound by these legal terms. If you do not agree with any part of these terms, you must not use our website or services.
+                            Your use of the <span className="font-black text-yellow-400">FOXIZ</span> platform and our digital services is subject to these Terms & Conditions. By accessing or using Foxiz, you agree to be bound by these legal terms. If you do not agree with any part of these terms, you must not use our website or services.
                         </p>
                     </div>
 
@@ -77,8 +77,8 @@ export default function TermsConditionsPage() {
                         {/* 1. Acceptance */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-red-600/10 group-hover:text-red-600/20 transition-colors">01</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Acceptance of Terms</h2>
+                                <div className="text-4xl font-black text-red-600/10 group-hover:text-red-600/20 transition-colors">01</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Acceptance of Terms</h2>
                             </div>
                             <div className="flex gap-6 p-6 bg-gray-50 rounded-2xl border-l-4 border-[#00008B]">
                                 <UserCheck className="w-8 h-8 text-[#00008B] flex-shrink-0" />
@@ -91,8 +91,8 @@ export default function TermsConditionsPage() {
                         {/* 2. Content Usage */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-red-600/10 group-hover:text-red-600/20 transition-colors">02</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Content Usage & Copyright</h2>
+                                <div className="text-4xl font-black text-red-600/10 group-hover:text-red-600/20 transition-colors">02</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Content Usage & Copyright</h2>
                             </div>
 
                             <div className="space-y-8">
@@ -107,7 +107,7 @@ export default function TermsConditionsPage() {
 
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     <div className="bg-green-50 p-6 rounded-2xl">
-                                        <span className="text-green-700 font-black text-xs uppercase tracking-widest block mb-4 italic">✓ Permissible Actions</span>
+                                        <span className="text-green-700 font-black text-xs uppercase tracking-widest block mb-4">✓ Permissible Actions</span>
                                         <ul className="space-y-3 text-sm font-bold text-green-900">
                                             <li className="flex items-center gap-2">Read and view content</li>
                                             <li className="flex items-center gap-2">Share via official tools</li>
@@ -115,7 +115,7 @@ export default function TermsConditionsPage() {
                                         </ul>
                                     </div>
                                     <div className="bg-red-50 p-6 rounded-2xl">
-                                        <span className="text-red-700 font-black text-xs uppercase tracking-widest block mb-4 italic">✗ Strictly Prohibited</span>
+                                        <span className="text-red-700 font-black text-xs uppercase tracking-widest block mb-4">✗ Strictly Prohibited</span>
                                         <ul className="space-y-3 text-sm font-bold text-red-900">
                                             <li className="flex items-center gap-2">Commercial redistribution</li>
                                             <li className="flex items-center gap-2">Content scraping via bots</li>
@@ -129,8 +129,8 @@ export default function TermsConditionsPage() {
                         {/* 3. Accounts */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-red-600/10 group-hover:text-red-600/20 transition-colors">03</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">User Registration</h2>
+                                <div className="text-4xl font-black text-red-600/10 group-hover:text-red-600/20 transition-colors">03</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">User Registration</h2>
                             </div>
                             <p className="text-gray-700 mb-8 border-b border-gray-100 pb-8">
                                 Some features of our news website may require registration. When creating an account, you agree to provide accurate information and maintain the security of your credentials.
@@ -146,8 +146,8 @@ export default function TermsConditionsPage() {
                         {/* 4. Comments */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-red-600/10 group-hover:text-red-600/20 transition-colors">04</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Comments & Submissions</h2>
+                                <div className="text-4xl font-black text-red-600/10 group-hover:text-red-600/20 transition-colors">04</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Comments & Submissions</h2>
                             </div>
                             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
                                 <div className="lg:col-span-7">
@@ -157,7 +157,7 @@ export default function TermsConditionsPage() {
                                     </p>
                                 </div>
                                 <div className="lg:col-span-5 bg-gray-900 p-6 rounded-2xl text-white">
-                                    <h3 className="text-xs font-black text-red-500 mb-4 uppercase tracking-widest italic flex items-center gap-2">
+                                    <h3 className="text-xs font-black text-red-500 mb-4 uppercase tracking-widest flex items-center gap-2">
                                         <ShieldAlert size={14} /> Blacklisted Content
                                     </h3>
                                     <ul className="text-[10px] space-y-2 opacity-80 uppercase tracking-widest font-bold">
@@ -173,12 +173,12 @@ export default function TermsConditionsPage() {
                         {/* 5. Standards */}
                         <div className="group">
                             <div className="flex items-center gap-4 mb-8">
-                                <div className="text-4xl font-black italic text-red-600/10 group-hover:text-red-600/20 transition-colors">05</div>
-                                <h2 className="text-2xl md:text-3xl font-black italic tracking-tighter text-gray-900 uppercase">Journalistic Standards</h2>
+                                <div className="text-4xl font-black text-red-600/10 group-hover:text-red-600/20 transition-colors">05</div>
+                                <h2 className="text-2xl md:text-3xl font-black tracking-tighter text-gray-900 uppercase">Journalistic Standards</h2>
                             </div>
                             <div className="bg-yellow-50 border-2 border-yellow-200 p-8 rounded-3xl relative">
                                 <div className="absolute top-0 right-0 -mt-3 mr-6 bg-yellow-400 text-black px-4 py-1 rounded text-[10px] font-black uppercase tracking-widest">Corrections Policy</div>
-                                <p className="text-lg font-bold text-gray-900 mb-4 italic">"We strive for 100% accuracy, but we are committed to transparency when we fall short."</p>
+                                <p className="text-lg font-bold text-gray-900 mb-4">"We strive for 100% accuracy, but we are committed to transparency when we fall short."</p>
                                 <p className="text-sm text-gray-700 mb-6">If you believe we have published inaccurate information, please contact our editorial team. Opinions expressed are those of the authors, not necessarily Foxiz News.</p>
                                 <Link href="/contact" className="text-xs font-black uppercase border-b-2 border-yellow-600 pb-0.5 hover:text-red-600 hover:border-red-600 transition-all">Submit a Correction Request</Link>
                             </div>
@@ -188,15 +188,15 @@ export default function TermsConditionsPage() {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div className="group">
                                 <div className="flex items-center gap-4 mb-6">
-                                    <div className="text-2xl font-black italic text-[#00008B]/10">06</div>
-                                    <h2 className="text-xl font-black italic tracking-tighter text-gray-900 uppercase">Third-Party Links</h2>
+                                    <div className="text-2xl font-black text-[#00008B]/10">06</div>
+                                    <h2 className="text-xl font-black tracking-tighter text-gray-900 uppercase">Third-Party Links</h2>
                                 </div>
                                 <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-widest font-bold">We are not responsible for content, accuracy, or opinions expressed in third-party materials or advertiser links.</p>
                             </div>
                             <div className="group">
                                 <div className="flex items-center gap-4 mb-6">
-                                    <div className="text-2xl font-black italic text-[#00008B]/10">07</div>
-                                    <h2 className="text-xl font-black italic tracking-tighter text-gray-900 uppercase">Warranty Disclaimer</h2>
+                                    <div className="text-2xl font-black text-[#00008B]/10">07</div>
+                                    <h2 className="text-xl font-black tracking-tighter text-gray-900 uppercase">Warranty Disclaimer</h2>
                                 </div>
                                 <p className="text-xs text-gray-500 leading-relaxed uppercase tracking-widest font-bold">Our services are provided "as is" without warranties. We do not guarantee uninterrupted access or absolute currentness.</p>
                             </div>
@@ -206,7 +206,7 @@ export default function TermsConditionsPage() {
                         <div className="bg-gray-50 p-10 rounded-3xl text-center">
                             <h2 className="text-lg font-black text-gray-900 mb-4 uppercase">8. Changes to Terms</h2>
                             <p className="text-sm text-gray-500 mb-8 max-w-lg mx-auto leading-relaxed">We reserve the right to modify these Terms and Conditions at any time. Your continued use of the website after changes constitutes acceptance.</p>
-                           
+
                         </div>
                     </div>
                 </div>

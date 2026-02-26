@@ -97,7 +97,7 @@ export default function AuthorsPage() {
                         <div className="max-w-2xl">
                             <div className="flex items-center gap-3 mb-6">
                                 <div className="w-1.5 h-10 bg-red-600"></div>
-                                <h1 className="text-4xl md:text-5xl lg:text-6xl font-black italic tracking-tighter text-gray-900 uppercase">
+                                <h1 className="text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter text-gray-900 uppercase">
                                     The Voices of Foxiz
                                 </h1>
                             </div>
@@ -106,7 +106,7 @@ export default function AuthorsPage() {
                             </p>
                         </div>
                         <div className="flex items-center gap-2 pb-2">
-                            <div className="px-4 py-2 bg-gray-900 text-white rounded font-black italic text-xs tracking-tighter uppercase">
+                            <div className="px-4 py-2 bg-gray-900 text-white rounded font-black text-xs tracking-tighter uppercase">
                                 {authors.length} CONTRIBUTORS
                             </div>
                         </div>
@@ -149,7 +149,7 @@ export default function AuthorsPage() {
                                 </div>
 
                                 {/* Content */}
-                                <h2 className="text-2xl font-black italic tracking-tighter text-gray-900 mb-1 group-hover:text-red-600 transition-colors">
+                                <h2 className="text-2xl font-black tracking-tighter text-gray-900 mb-1 group-hover:text-red-600 transition-colors">
                                     {author.name}
                                 </h2>
                                 <p className="text-xs font-black uppercase tracking-[0.2em] text-[#00008B] mb-4">
@@ -186,7 +186,7 @@ export default function AuthorsPage() {
             {/* Call to Action */}
             <section className="py-20 px-4 bg-[#00008B] text-white">
                 <div className="max-w-[1330px] mx-auto text-center">
-                    <h2 className="text-4xl md:text-5xl font-black italic tracking-tighter mb-8 uppercase">Become a Contributor</h2>
+                    <h2 className="text-4xl md:text-5xl font-black tracking-tighter mb-8 uppercase">Become a Contributor</h2>
                     <p className="text-xl text-blue-100 mb-12 max-w-2xl mx-auto">
                         Do you have a unique perspective on global affairs or financial markets? We're always looking for new voices.
                     </p>

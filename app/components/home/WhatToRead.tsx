@@ -3,8 +3,25 @@ import Link from 'next/link';
 import { Bookmark } from 'lucide-react';
 import whatToReadData from '@/public/data/what-to-read.json';
 
-export default function WhatToRead() {
-    const { mainArticle, gridArticles } = whatToReadData;
+interface Article {
+    slug: string;
+    image: string;
+    category: string;
+    date: string;
+    title: string;
+}
+
+interface WhatToReadData {
+    mainArticle: Article;
+    gridArticles: Article[];
+}
+
+interface WhatToReadProps {
+    data?: WhatToReadData;
+}
+
+export default function WhatToRead({ data }: WhatToReadProps) {
+    const { mainArticle, gridArticles } = data || whatToReadData;
 
     return (
         <section className="w-full bg-white py-8">
